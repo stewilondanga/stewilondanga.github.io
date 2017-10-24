@@ -1,17 +1,17 @@
-@media screen and (min-width: 480px) and (max-width: 767px){
-	body {
-		background-color: black;
-		color: white;
-	}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    background-color: black;
+    color: white;
+  }
 }
 
 @media screen and (min-width: 768px) {
   body {
-	background-color: grey;
+    background-color: grey;
   }
   .column {
     width: 220px;
-    float:left;
+    float: left;
     padding: 15px;
   }
 }
@@ -21,14 +21,11 @@ img {
 }
 
 .author {
-  color:#00FFCC;
+  color: #00FFCC;
   background-color: #000000
 }
 
 p {
-   color:#000066;
-   font-family: "Courier New", Courier, monospace
+  color: #000066;
+  font-family: "Courier New", Courier, monospace
 }
-
-
-

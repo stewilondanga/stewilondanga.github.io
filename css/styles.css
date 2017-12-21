@@ -63,6 +63,8 @@
 #about .info {
   display: flex;
   flex-direction: row;
+  background-color: #81724A;
+  font-size: 14px;
 }
 
 #about h2 {

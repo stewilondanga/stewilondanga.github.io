@@ -754,3 +754,11 @@ body > div {
     		}
     	}
     }
+
+.cal{ display:inline-block; background:#ffe; color:#555; font-size:6px; text-align:center; transform:scale(1); transition:all 0.2s linear;}
+.cal:hover{ transform:scale(2.5);transition:all 0.4s linear;}
+.cal caption{ background:#d44; color:#eee; font-size:15px;}
+.cal th{ color:#aaa;line-height:200%;}
+.cal th:first-child{ color:#f00;}
+.cal th:last-child{ color:#04d;}
+.cal td{ padding:0 2px; line-height:100%;}

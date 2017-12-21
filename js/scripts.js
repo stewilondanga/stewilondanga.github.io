@@ -12,11 +12,11 @@ if ( now < 07 ){
 } else if ( now < 10 ) {
   message = 'There are lots of people who mistake their imagination for their memory. Good Morning';
 } else if ( now < 11 ) {
-  message
+  message = 'If I want to knock a story off the front page, I just change my hairstyle. Good Morning';
 } else if ( now < 12 ) {
   message = 'I have a new philosophy. I am only going to dread one day at a time. Good Morning';
 } else if ( now < 13 ) {
-  message = ''
+  message = 'A committee is a group that keeps minutes and loses hours. Good Afternoon!';
 } else if ( now < 14 ) {
   message
 } else if ( now < 15 ) {

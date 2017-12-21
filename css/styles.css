@@ -249,7 +249,8 @@ body > div {
     }
 
     #home {
-    	background: url("https://static.pexels.com/photos/232/apple-iphone-books-desk-large.jpg") no-repeat;
+    	background-image:url("../assets/world.jpeg");
+      background-repeat: no-repeat;
     	width: 100%;
     	background-size: cover;
     }

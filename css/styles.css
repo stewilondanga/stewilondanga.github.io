@@ -18,6 +18,35 @@
   padding-top: 80px;
 }
 
+
+h1 .logo:hover {
+  font-size: 50px;
+  font-family: Courier;
+  width: 200px;
+  margin-left: -20px;
+  color:#F98108;
+}
+
+h1 {
+  font-family: Courier;
+  font-weight: normal;
+  text-align: center;
+  color: #00FFCC;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  width: 375px;
+  margin: 0 auto;
+  border-bottom: 3px solid #f3f3f3;
+}
+
+#greeting {
+  color: #00FFCC;
+  background-color: #000000;
+  font-family: Courier;
+  font-size: 30px;
+}
+
+
 #home nav ul {
   overflow: hidden;
 }
@@ -128,26 +157,6 @@ a:hover{
   width: 100%;
 }
 
-h1 .logo:hover {
-  font-size: 50px;
-  font-family: Courier;
-  width: 200px;
-  margin-left: -20px;
-  color:#F98108;
-}
-
-h1 {
-  font-family: Courier;
-  font-weight: normal;
-  text-align: center;
-  color: #00FFCC;
-  padding-top: 50px;
-  padding-bottom: 10px;
-  width: 375px;
-  margin: 0 auto;
-  border-bottom: 3px solid #f3f3f3;
-}
-
 h2 {
   font-size: 245%;
   margin-top: 140px;
@@ -233,6 +242,12 @@ h3 {
   padding: 30px;
 }
 
+* {
+  box-sizing: border-box;
+  padding: 10;
+  margin: 0;
+}
+
 .jumbotron {
   background-image:url("../assets/image.gif");
   background-repeat: no-repeat;
@@ -240,18 +255,6 @@ h3 {
   background-size: cover;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 10;
-  margin: 0;
-}
-
-#greeting {
-  color: #00FFCC;
-  background-color: #000000;
-  font-family: Courier;
-  font-size: 70;
-}
 
 body > div {
 		width: 500px;

@@ -22,7 +22,7 @@ if ( now < 07 ){
 } else if ( now < 15 ) {
   message
 } else if ( now < 16 ) {
-  message
+  message = 'If I were two-faced, would I be wearing this one? Good Afternoon!';
 } else if ( now < 17 ) {
   message = 'Why do they call it rush hour when nothing moves? Good Afternoon!';
 } else if ( now < 18 ) {

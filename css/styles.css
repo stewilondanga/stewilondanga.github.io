@@ -81,6 +81,10 @@
 
 #about p {
   line-height: 270%;
+  font-size: 15px;
+  text-align: justify;
+  color: #2AEC04;
+  background-color: #6C000F;
 }
 
 /* ELEMENTS */

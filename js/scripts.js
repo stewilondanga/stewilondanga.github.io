@@ -10,7 +10,7 @@ if ( now < 07 ){
 } else if ( now < 09 ) {
   message = 'If at first you do not succeed, find out if the loser gets anything. Good Morning';
 } else if ( now < 10 ) {
-  message
+  message = 'There are lots of people who mistake their imagination for their memory. Good Morning';
 } else if ( now < 11 ) {
   message
 } else if ( now < 12 ) {
@@ -30,7 +30,7 @@ if ( now < 07 ){
 } else if ( now < 19 ) {
   message = 'Every sunset brings the promise of a new dawn! Good Evening';
 } else if ( now < 20 ) {
-  message
+  message = ''
 } else if ( now < 21 ) {
   message
 } else if ( now < 22 ) {

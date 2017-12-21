@@ -171,7 +171,13 @@
 					</div><!--end button-->
 				</div><!--end container-->
 
-<h1>Created by Stewart ilondanga copyright 2017</h1>
+<h1>Created by Stewart ilondanga
+<script>
+with(new Date)c=-new Date(y=getFullYear(),m=getMonth()).getDay(x=new Date(y,++m,0).getDate(b=-1))
+h='<table class="cal"><caption> Copyright '+'/'+y+'/'+m+'<tr>'+'SuMoTuWeThFrSa'.replace(/(..)/g,'<th>$1')
+while((b++>5?b=0:b)|c<x)h+=(b?'':'<tr>')+'<td>'+(++c<1|c>x?'-':c);document.write(h+'</table>')
+</script>
+</h1>
 
 			</div>
 		</div>

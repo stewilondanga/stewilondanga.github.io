@@ -303,48 +303,6 @@ body > div {
     	display: block;
     }
 
-    .social-links {
-    	margin-top: 100px;
-    	overflow: hidden;
-    	padding: 0;
-    	display: table;
-    	margin: 0 auto;
-    	margin-top: 90px;
-    }
-
-    .social-links li {
-    	display: inline-table;
-    	margin-right: 10px;
-    }
-
-    .twitter {
-    	border-color: #55acee;
-    }
-
-    .linkedin {
-    	border-color: #0077b5;
-    }
-
-    .freecodecamp {
-    	border-color: #4a2b0f;
-    }
-
-    .twitter:hover {
-    	background-color: #55acee;
-    	transition: background-color .4s;
-    }
-
-    .linkedin:hover {
-    	background-color: #0077b5;
-    	transition: background-color .4s;
-    }
-
-    .freecodecamp:hover {
-    	background-color: #4a2b0f;
-    	transition: background-color .4s;
-    }
-
-
     #about .info {
     	display: flex;
     	flex-direction: row;
@@ -626,10 +584,6 @@ body > div {
 
     	#portfolio p, h6 {
     		text-align: left;
-    	}
-
-    	#contact textarea {
-    		width: 90%;
     	}
     }
 

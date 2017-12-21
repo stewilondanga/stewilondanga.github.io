@@ -67,6 +67,10 @@
 
 #about h2 {
   color: #0d2435;
+  font-family: Courier;
+  text-align: center;
+  color: #00FFCC;
+  background-color: #000000;
 }
 
 #about h2::after {

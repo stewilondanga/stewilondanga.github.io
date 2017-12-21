@@ -89,6 +89,10 @@
 
 #portfolio {
   padding-bottom: 80px;
+  background-image:url("../assets/image.gif");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
 }
 
 #portfolio h2 {
@@ -307,8 +311,10 @@
 
 
 .jumbotron {
-  width: 80%;
-  background-color: #ACB2FD;
+  background-image:url("../assets/image.gif");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
 }
 
 * {

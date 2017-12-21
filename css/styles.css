@@ -284,12 +284,6 @@ h1 {
   font-family: Courier;
   font-size: 70;
 }
-p {
-  color: #000066;
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-  font-size: 70;
-}
 
 body > div {
 		width: 500px;

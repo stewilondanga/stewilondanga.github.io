@@ -49,6 +49,34 @@
   padding-bottom: 80px;
 }
 
+#about::before {
+  height: 0px;
+  width: 0px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #131c23;
+  margin: 0 auto;
+  content: "";
+  display: block;
+}
+
+#about .info {
+  display: flex;
+  flex-direction: row;
+}
+
+#about h2 {
+  color: #0d2435;
+}
+
+#about h2::after {
+  border-bottom: 2px dashed #918D8D;
+}
+
+#about p {
+  line-height: 270%;
+}
+
 /* ELEMENTS */
 .noir {
   display: block;
@@ -83,41 +111,7 @@
   overflow: hidden;
 }
 
-#about::before {
-  height: 0px;
-  width: 0px;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-top: 30px solid #131c23;
-  margin: 0 auto;
-  content: "";
-  display: block;
-}
 
-#about .info {
-  display: flex;
-  flex-direction: row;
-}
-
-#about h2 {
-  color: #0d2435;
-}
-
-#about h2::after {
-  border-bottom: 2px dashed #918D8D;
-}
-
-#about .info p {
-  line-height: 270%;
-}
-
-#about .signature {
-  font-family: 'Brush Script MT', cursive;
-  font-size: 150%;
-  float: right;
-  color: #0d2435;
-  opacity: .9;
-}
 
 #skill-set {
   margin-top: 80px;

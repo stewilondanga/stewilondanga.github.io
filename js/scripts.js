@@ -14,9 +14,9 @@ if ( now < 07 ){
 } else if ( now < 11 ) {
   message
 } else if ( now < 12 ) {
-  message
+  message = 'I have a new philosophy. I am only going to dread one day at a time. Good Afternoon';
 } else if ( now < 13 ) {
-  message
+  message = ''
 } else if ( now < 14 ) {
   message
 } else if ( now < 15 ) {
@@ -24,9 +24,9 @@ if ( now < 07 ){
 } else if ( now < 16 ) {
   message
 } else if ( now < 17 ) {
-  message
+  message = 'Why do they call it rush hour when nothing moves? Good Afternoon!';
 } else if ( now < 18 ) {
-  message = 'I always wanted to be somebody, but now I realize I should have been more specific. Good Afternoon!';
+  message = 'I always wanted to be somebody, but now I realize I should have been more specific. Good Evening!';
 } else if ( now < 19 ) {
   message = 'Every sunset brings the promise of a new dawn! Good Evening';
 } else if ( now < 20 ) {

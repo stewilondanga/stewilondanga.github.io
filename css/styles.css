@@ -133,10 +133,11 @@ a:hover{
 
 #about p {
   line-height: 270%;
-  font-size: 15px;
+  font-size: 20px;
   text-align: justify;
-  color: #2AEC04;
+  color: #F98108;
   background-color: #013040;
+  font-family: Courier;
 }
 
 #portfolio {
@@ -255,20 +256,7 @@ h3 {
   background-size: cover;
 }
 
-
-body > div {
-		width: 500px;
-		margin: 50px auto;
-		text-align: center;
-    font-size: 20px;
-    font-family: Courier;
-	}
-
-	figure {
-		margin: 0;
-	}
-
-	.container {
+.container {
 		width: 600px;
 		height: 300px;
 		text-align: left;

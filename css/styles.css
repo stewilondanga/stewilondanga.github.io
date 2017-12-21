@@ -5,6 +5,13 @@
   background-size: cover;
 }
 
+#home:hover{
+  background-image:url("../assets/world.gif");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
 #home nav {
   margin: 0 auto;
   width: 700px;
@@ -85,7 +92,6 @@ a:hover{
 }
 
 #about h2 {
-  color: #0d2435;
   font-family: Courier;
   text-align: center;
   color: #00FFCC;
@@ -120,6 +126,26 @@ a:hover{
 
 #portfolio img {
   width: 100%;
+}
+
+h1 .logo:hover {
+  font-size: 50px;
+  font-family: Courier;
+  width: 200px;
+  margin-left: -20px;
+  color:#F98108;
+}
+
+h1 {
+  font-family: Courier;
+  font-weight: normal;
+  text-align: center;
+  color: #00FFCC;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  width: 375px;
+  margin: 0 auto;
+  border-bottom: 3px solid #f3f3f3;
 }
 
 /* ELEMENTS */
@@ -360,19 +386,6 @@ body > div {
 		input[value="8"]:checked ~ .container .carousel img:nth-child(8) { -webkit-transform: rotateY(315deg) translateZ(540px) scale(1); opacity: 1; }
 
 
-    h1 {
-    	color: white;
-    	text-align: center;
-    	margin-top: 4%;
-    	font-size: 150%;
-    }
-
-
-    h1 > small {
-    	display: block;
-    	color: white;
-    }
-
     h2 {
     	font-size: 245%;
     	margin-top: 140px;
@@ -397,26 +410,6 @@ body > div {
     }
 
 
-    h1 .logo {
-    	font-size: 230%;
-    	font-family: Courier;
-    	width: 200px;
-    	margin-left: -20px;
-    }
-
-
-
-    h1 {
-    	font-family: helvetica;
-    	font-weight: normal;
-    	text-align: center;
-    	color: #c0c0c0;
-    	padding-top: 50px;
-    	padding-bottom: 10px;
-    	width: 375px;
-    	margin: 0 auto;
-    	border-bottom: 3px solid #f3f3f3;
-    }
 
     .containers {
     	width: 520px;

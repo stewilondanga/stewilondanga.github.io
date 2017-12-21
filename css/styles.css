@@ -148,12 +148,32 @@ h1 {
   border-bottom: 3px solid #f3f3f3;
 }
 
+h2 {
+  font-size: 245%;
+  margin-top: 140px;
+}
+
+h2:after {
+  display: block;
+  margin: 42px 0;
+  content: "";
+}
+
 .author {
   color: #00FFCC;
   background-color: #000000;
   font-family: Courier;
   font-size: 70;
 }
+
+h3 {
+  font-weight: bold;
+  color: #00FFCC;
+  background-color: #000000;
+  font-family: Courier;
+  font-size: 40px;
+}
+
 
 /* ELEMENTS */
 .noir {
@@ -379,21 +399,6 @@ body > div {
 		input[value="7"]:checked ~ .container .carousel img:nth-child(7) { -webkit-transform: rotateY(270deg) translateZ(540px) scale(1); opacity: 1; }
 		input[value="8"]:checked ~ .container .carousel img:nth-child(8) { -webkit-transform: rotateY(315deg) translateZ(540px) scale(1); opacity: 1; }
 
-
-    h2 {
-    	font-size: 245%;
-    	margin-top: 140px;
-    }
-
-    h2:after {
-    	display: block;
-    	margin: 42px 0;
-    	content: "";
-    }
-
-    h3 {
-    	font-weight: bold;
-    }
 
     h4 {
     	font-size: 92%;

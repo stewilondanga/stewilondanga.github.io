@@ -1,44 +1,3 @@
-/* ELEMENTS */
-.noir {
-  display: block;
-  background-color: black;
-  padding: 18px;
-  border: 3px solid white;
-}
-
-.vertical-list li {
-  float: left;
-}
-
-.blue-border {
-  border: 2px solid #114190;
-}
-
-.magenta-border {
-  border: 2px solid #e11a61;
-}
-
-.purple-border {
-  border: 2px solid #9d1098;
-}
-
-.red-border {
-  border: 2px solid #9d102b;
-}
-
-/* END OF ELEMENTS */
-
-.overflow {
-  overflow: hidden;
-}
-
-.overlay {
-  background-color: rgba(4,14,22,.83);
-  height: 100%;
-  width: 100%;
-  padding-bottom: 80px;
-}
-
 #home {
   background-image:url("../assets/world.jpeg");
   background-repeat: no-repeat;
@@ -83,6 +42,46 @@
   margin: 0 auto;
 }
 
+.overlay {
+  background-color: rgba(4,14,22,.83);
+  height: 100%;
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+/* ELEMENTS */
+.noir {
+  display: block;
+  background-color: black;
+  padding: 18px;
+  border: 3px solid white;
+}
+
+.vertical-list li {
+  float: left;
+}
+
+.blue-border {
+  border: 2px solid #114190;
+}
+
+.magenta-border {
+  border: 2px solid #e11a61;
+}
+
+.purple-border {
+  border: 2px solid #9d1098;
+}
+
+.red-border {
+  border: 2px solid #9d102b;
+}
+
+/* END OF ELEMENTS */
+
+.overflow {
+  overflow: hidden;
+}
 
 #about::before {
   height: 0px;

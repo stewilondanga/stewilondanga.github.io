@@ -148,6 +148,13 @@ h1 {
   border-bottom: 3px solid #f3f3f3;
 }
 
+.author {
+  color: #00FFCC;
+  background-color: #000000;
+  font-family: Courier;
+  font-size: 70;
+}
+
 /* ELEMENTS */
 .noir {
   display: block;
@@ -269,13 +276,6 @@ h1 {
   background-color: #ACB2FD;
   float: left;
   width: 70%;
-}
-
-.author {
-  color: #00FFCC;
-  background-color: #000000;
-  font-family: Courier;
-  font-size: 70;
 }
 
 #greeting {

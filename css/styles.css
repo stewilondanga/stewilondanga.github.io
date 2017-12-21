@@ -49,6 +49,19 @@
   padding-bottom: 80px;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+}
+
+a:hover, a:focus {
+  color: white;
+  text-decoration: none;
+}
+
 #about::before {
   height: 0px;
   width: 0px;
@@ -341,20 +354,6 @@ body > div {
 		input[value="6"]:checked ~ .container .carousel img:nth-child(6) { -webkit-transform: rotateY(225deg) translateZ(540px) scale(1); opacity: 1; }
 		input[value="7"]:checked ~ .container .carousel img:nth-child(7) { -webkit-transform: rotateY(270deg) translateZ(540px) scale(1); opacity: 1; }
 		input[value="8"]:checked ~ .container .carousel img:nth-child(8) { -webkit-transform: rotateY(315deg) translateZ(540px) scale(1); opacity: 1; }
-
-
-    li {
-    	list-style: none;
-    }
-
-    a {
-    	color: white;
-    }
-
-    a:hover, a:focus {
-    	color: white;
-    	text-decoration: none;
-    }
 
 
     h1 {

@@ -337,18 +337,24 @@ h3 {
 		input[value="7"]:checked ~ .container .carousel img:nth-child(7) { -webkit-transform: rotateY(270deg) translateZ(540px) scale(1); opacity: 1; }
 		input[value="8"]:checked ~ .container .carousel img:nth-child(8) { -webkit-transform: rotateY(315deg) translateZ(540px) scale(1); opacity: 1; }
 
-    .containers {
-    	width: 520px;
-    	margin: 20px auto;
-    }
+.containers {
+    width: 520px;
+    margin: 20px auto;
+}
 
-    .menu_btn {
-    	font-family: helvetica;
+.containers h2{
+  color:#EC532A;
+  font-family: Courier;
+  background-color: #020739;
+}
+
+.menu_btn {
+	font-family: Courier;
     	width: 125px;
     	float: left;
     	margin-left: 5px;
     	&:first-child .dd_btn {
-    		background: #f1c40f;
+    		background-color: #f1c40f;
     		&:active {
     			background: #f39c12;
     		}

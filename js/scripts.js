@@ -4,7 +4,7 @@ var greeting = document.getElementById("greeting");
 var message;
 
 if ( now < 12 ){
-  message = 'Whether tea or coffee, a cup will keep you warm! Stewart ilondanga says Good Morning';
+  message = 'Whether tea or coffee, a cup will keep you warm and alert! Stewart ilondanga says Good Morning';
 } else if ( now < 18 ) {
   message = 'An apple a day keeps the doctor away! Stewart ilondanga says Good Afternoon';
 } else if ( now < 21 ){

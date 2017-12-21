@@ -34,7 +34,7 @@ if ( now < 07 ){
 } else if ( now < 21 ) {
   message
 } else if ( now < 22 ) {
-  message
+  message = 'If you are going to do something tonight that you will be sorry for tomorrow morning, sleep late. Good Evening!'
 } else if ( now < 23 ) {
   message = 'No man has a good enough memory to be a successful liar. Good night!';
 } else {

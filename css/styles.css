@@ -32,37 +32,6 @@
   width: 70%;
 }
 
-@media screen and (max-width: 600px) {
-  #one {
-    float: none;
-    padding: 10px;
-    width: 100%;
-  }
-  #two {
-    float: none;
-    padding: 10px;
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  body {
-    background-color: black;
-    color: white;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  body {
-    background-color: #ACB2FD;
-  }
-  .column {
-    width: 220px;
-    float: left;
-    padding: 15px;
-  }
-}
-
 .author {
   color: #00FFCC;
   background-color: #000000;
@@ -87,6 +56,8 @@ body > div {
 		width: 500px;
 		margin: 50px auto;
 		text-align: center;
+    font-size: 20px;
+    font-family: Courier;
 	}
 
 	figure {

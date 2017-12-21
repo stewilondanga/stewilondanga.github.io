@@ -666,140 +666,185 @@ body > div {
 
     }
 
-#contact {
-  text-align: left;
-}
+    @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
 
-#contact-form {
-  max-width: 90%;
-  margin: 0 auto;
-}
+    //colors
+    $midnightblue: #2c3e50;
+    $belizehole: #2980b9;
+    $nephritis: #27ae60;
+    $peterriver: #3498db;
 
-label {
-  font-weight: 400;
-  cursor: pointer;
-}
+    $primary: $belizehole;
+    $secondary: $midnightblue;
 
-textarea,
-input {
-  border: none;
-  outline: none;
-  border-radius: 0;
-  text-align: center;
-  background: none;
-  font-weight: 700;
-  font-family: 'Lato', georgia;
-  font-size: 25px;
-  color: rgba(255, 255, 255, 1);
-  max-width: 90%;
-  padding: 1rem;
-  border: 2px dashed rgba(255, 255, 255, 0);
-  box-sizing: border-box;
-  cursor: text;
-}
+    $bright: mix( $primary , white , 50% );
+    $brighter: mix( $primary , white , 0% );
+    $dark: mix( $secondary , black , 70% );
+    $darker: mix( $secondary , black , 60% );
 
-textarea {
-  text-align: left;
-  /* overflow:hidden; */
+    %center-stage {
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	transform: translateX(-50%) translateY(-50%);
+    }
 
-  resize: none;
-  width: 90%;
-  border-color: rgba(255, 255, 255, 0)
-}
+    %corners {
+    	border-radius: 5px;
+    }
 
-textarea:focus {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 2px dashed rgba(255, 255, 255, 1);
-}
+    %component {
+    	border-radius: 5px;
+    	background: linear-gradient( to right, darken( $darker , 1% ) , $darker );
+    	box-shadow: inset 3px 3px 15px -5px rgba( black , 0.1 );
+    	padding: 2em;
+    	display: block;
+    }
 
-textarea:focus:required:valid {
-  border: 2px solid rgba(255, 255, 255, 0);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-}
+    %button {
+    	background: $darker;
+    	display: inline-block;
+    	padding: 0.3em 1em 0.5em;
+    	cursor: pointer;
+    	background: linear-gradient( to right, darken( $darker , 1% ) , $darker );
+    	box-shadow: inset 3px 3px 15px -5px rgba( black , 0.1 );
+    	text-transform: uppercase;
+    	color: $nephritis;
+    	border: 1px solid rgba( $primary , 0.3 );
+    	font-size: 90%;
 
-textarea:required:valid {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-}
+    	&:focus {
+    		background: $peterriver;
+    		color: $brighter;
+    	}
 
-input {
-  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
-}
+    	&:hover {
+    		background: $nephritis ;
+    		color: $brighter;
+    	}
 
-input:required,
-textarea:required {
-  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
-}
+    	&:active {
+    		background: $darker ;
+    		color: $brighter;
+    	}
 
-input:focus {
-  border-bottom: 2px dashed rgba(255, 255, 255, 1);
-  background-color: rgba(255, 255, 255, 0.2);
-}
+    }
 
-input:required:valid {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-}
+    %shadow-inset {
+    	box-shadow: inset 3px 3px 10px rgba( black , 0.1 );
+    }
 
-input:required:invalid {
-  color: rgba(255, 255, 255, 0.5);
-}
+    %transition {
+    	transition: all 0.2s ease-out;
 
-::-webkit-input-placeholder {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  font-style: italic;
-  font-weight: 400;
-}
+    	&:hover {
+    		transition: all 0.2s ease-in;
+    	}
 
-:-moz-placeholder {
-  /* Firefox 18- */
+    }
 
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  font-style: italic;
-  font-weight: 400;
-}
+    * {
+    	position: relative;
+    	box-sizing: border-box;
+    }
 
-::-moz-placeholder {
-  /* Firefox 19+ */
+    html , body { height: 100%; }
+    *,
+    body {
+    	font-family: 'Inconsolata', sans-serif ;
+    	font-weight: 400;
+    }
 
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  font-style: italic;
-  font-weight: 400;
-}
+    body {
+    	font-size: 19px;
+    	line-height: 1.3em;
+    	background: linear-gradient( to left, darken( $dark , 1% ) , $dark );
+    	color: $bright;
+    }
 
-:-ms-input-placeholder {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  font-style: italic;
-  font-weight: 400;
-}
+    form {
+    	@extend %component;
+    }
 
-.expanding {
-  vertical-align: top;
-}
+    legend {
+    	font-size: 1.5em;
+    	margin-bottom: 1em;
+    	color: $primary;
+    }
 
-.send-icn {
-  fill: rgba(255, 255, 255, 1)
-}
+    label {
+    	@extend %transition;
+    	@extend %corners;
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	transform: translateX(-20%) translateY(50%);
+    	background: rgba( $darker , 0.5 );
+    	border: 1px solid rgba( $primary , 0.5 );
+    	padding: 0 1em 0.2em;
+    	display: block;
+    	cursor: pointer;
+    	-webkit-transform-origin: 0 0;
+    	transform-origin: 0 0;
+    }
 
-.send-icn:hover {
-  fill: rgba(0, 0, 0, 1);
-  cursor: pointer;
-}
+    input,
+    textarea {
+    	@extend %transition;
+    	font-size: 100%;
 
-button {
-  background: none;
-  border: none;
-  outline: none;
-  margin: 2vmax;
-}
+    	&:focus {
+    		outline: none;
+    		border: 1px solid $primary;
+    		background: $darker;
+    		box-shadow: inset 3px 3px 10px 0 rgba( black , 0.1);
+    	}
 
-button:hover small {
-  opacity: 1;
-}
+      &:focus,
+      &.active {
+         + label {
+            background: $primary;
+            transform: translateX(-20%) translateY(-50%);
+          }
+      }
 
-small {
-  display: block;
-  opacity: 0;
-}
+    }
+
+    ::-webkit-input-placeholder {
+    	color: rgba( $primary , 0.3 );
+    }
+
+    [type="text"],
+    [type="email"],
+    textarea  {
+    	@extend %corners;
+    	border: none;
+    	background: inherit;
+    	color: $bright;
+    	border: 1px solid rgba( $primary , 0.3 );
+    	padding: 1em 0.5em 0.5em;
+    	width: 100%;
+
+    	-webkit-filter: blur(5px);
+
+    	&:focus,
+      &.active {
+    		-webkit-filter: blur(0px);
+    	}
+
+    }
+
+    [type="submit"] {
+    	@extend %corners;
+    	@extend %button;
+    }
+
+    .control {
+    	margin-bottom: 1.3em;
+    }
+
+    .stage {
+    	@extend %center-stage;
+    	max-width: 500px;
+    	width: 80%;
+    }

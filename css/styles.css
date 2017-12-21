@@ -64,7 +64,7 @@
   display: flex;
   flex-direction: row;
   background-color: #81724A;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #about h2 {
@@ -84,7 +84,7 @@
   font-size: 15px;
   text-align: justify;
   color: #2AEC04;
-  background-color: #6C000F;
+  background-color: #013040;
 }
 
 /* ELEMENTS */

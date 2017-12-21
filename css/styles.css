@@ -50,16 +50,20 @@
 }
 
 li {
-  list-style: none;
+  list-style: disc;
 }
 
 a {
   color: white;
 }
 
-a:hover, a:focus {
+a:focus {
   color: white;
   text-decoration: none;
+}
+
+a:hover{
+  color:#F9083B;
 }
 
 #about::before {

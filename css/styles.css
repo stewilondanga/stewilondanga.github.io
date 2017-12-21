@@ -511,7 +511,7 @@ body > div {
 
     /* Media Queries */
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 300px) {
     	#portfolio [class^="col"] section {
     		width: 80%;
     		margin-right: auto;
@@ -538,7 +538,7 @@ body > div {
     	}
     }
 
-    @media screen and (max-width: 790px) {
+    @media screen and (max-width: 300px) {
     	body {
     		font-size: 18px;
     		text-align: center;
@@ -587,7 +587,7 @@ body > div {
     	}
     }
 
-    @media screen and (max-width: 570px) {
+    @media screen and (max-width: 300px) {
 
     	#home nav {
     		width: inherit;

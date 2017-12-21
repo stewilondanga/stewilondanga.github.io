@@ -172,6 +172,7 @@ h3 {
   background-color: #000000;
   font-family: Courier;
   font-size: 40px;
+  text-align: center;
 }
 
 /* ELEMENTS */
@@ -241,8 +242,9 @@ h3 {
 
 * {
   box-sizing: border-box;
-  padding: 0;
+  padding: 10;
   margin: 0;
+  align-self: center;
 }
 
 .wrapper {
@@ -252,7 +254,6 @@ h3 {
 .wrapper div {
   padding: 15px;
 }
-
 
 #one #two #one2 {
   padding: 15px;

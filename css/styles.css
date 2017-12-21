@@ -342,7 +342,7 @@ h3 {
     margin: 20px auto;
 }
 
-.containers h2{
+#contact:hover {
   color:#EC532A;
   font-family: Courier;
   background-color: #020739;
@@ -350,74 +350,89 @@ h3 {
 
 .menu_btn {
 	font-family: Courier;
-    	width: 125px;
-    	float: left;
-    	margin-left: 5px;
-    	&:first-child .dd_btn {
-    		background-color: #f1c40f;
-    		&:active {
-    			background: #f39c12;
-    		}
-    	}
-    	&:nth-child(2) .dd_btn {
-    		background: #2ecc71;
-    		&:active {
-    			background: #27ae60;
-    		}
-    	}
-    	&:nth-child(3) .dd_btn {
-    		background: #3498db;
-    		&:active {
-    			background: #2980b9;
-    		}
-    	}
-    	&:nth-child(4) .dd_btn {
-    		background: #e74c3c;
-    		&:active {
-    			background: #c0392b;
-    		}
-    	}
-    	.dd_btn {
-    		height: 50px;
-    		width: 125px;
-    		color: #fff;
-    		font-size: 18px;
-    		border: 0px;
-    		z-index: 3;
-    		float: left;
-    		cursor: pointer;
-      	background-color:#E19E19;
-    		&:active {
-      		background-color:#946810;
-    		}
-    		&:focus {
-    			outline: none;
-    		}
-    	}
-    	.dd {
-    		position: absolute;
-    		width: 255px;
-    		margin-top: 55px;
-    		background: white;
-    		text-align: center;
-    		a {
-    			width: 100%;
-    			display: block;
-    			height: 100%;
-    			padding: 15px 0 15px 0;
-    			text-decoration: none;
-    			color: #666;
-    			background: #f9f9f9;
-    			&:hover {
-    				background: #ecf0f1;
-    			}
-    			&:active {
-    				background-color: #bdc3c7;
-    				color: #fff;
-    			}
-    		}
-    	}
-    }
+  width: 125px;
+  float: left;
+  margin-left: 5px;
+}
+
+&:first-c .dd_btn {
+  background-color: #f1c40f;
+}
+
+&:active {
+  background-color: #f39c12;
+}
+
+&:nth-child(2) .dd_btn {
+  background-color: #2ecc71;
+}
+
+&:active {
+  background-color: #27ae60;
+}
+
+&:nth-child(3) .dd_btn {
+  background-color: #3498db;
+}
+
+&:active {
+  background-color: #2980b9;
+}
+
+&:nth-child(4) .dd_btn {
+  background-color: #e74c3c;
+}
+
+&:active {
+  background-color: #c0392b;
+}
+
+.dd_btn {
+  height: 50px;
+  width: 125px;
+  color: #fff;
+  font-size: 18px;
+  border: 0px;
+  z-index: 3;
+  float: left;
+  cursor: pointer;
+  background-color:#E19E19;
+}
+
+&:active {
+  background-color:#946810;
+}
+
+&:focus {
+  outline: none;
+}
+
+.dd {
+  position: absolute;
+	width: 255px;
+	margin-top: 55px;
+	background: white;
+	text-align: center;
+}
+
+.containers a {
+  width: 100%;
+  display: block;
+  height: 100%;
+  padding: 15px 0 15px 0;
+  text-decoration: none;
+  color: #666;
+  background: #f9f9f9;
+}
+
+&:hover {
+  background: #ecf0f1;
+}
+
+&:active {
+	background-color: #bdc3c7;
+	color: #fff;
+}
 
 .cal{ display:inline-block; background:#ffe; color:#555; font-size:6px; text-align:center; transform:scale(1); transition:all 0.2s linear;}
 .cal:hover{ transform:scale(2.5);transition:all 0.4s linear;}

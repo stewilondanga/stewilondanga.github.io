@@ -548,10 +548,6 @@ body > div {
         margin-top: 80px;
       }
 
-    	input {
-    		text-align: center;
-    	}
-
     	#about img {
     		display: block;
     		margin: 0 auto;
@@ -564,10 +560,6 @@ body > div {
 
     	#skill-set .skills {
     		margin-top: 20px;
-    	}
-
-    	form {
-    		text-align: left;
     	}
 
     	#portfolio .description p {
@@ -674,7 +666,11 @@ body > div {
 
     }
 
-    #contact-form {
+#contact {
+  text-align: left;
+}
+
+#contact-form {
   max-width: 90%;
   margin: 0 auto;
 }

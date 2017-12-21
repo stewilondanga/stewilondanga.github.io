@@ -337,17 +337,6 @@ h3 {
 		input[value="7"]:checked ~ .container .carousel img:nth-child(7) { -webkit-transform: rotateY(270deg) translateZ(540px) scale(1); opacity: 1; }
 		input[value="8"]:checked ~ .container .carousel img:nth-child(8) { -webkit-transform: rotateY(315deg) translateZ(540px) scale(1); opacity: 1; }
 
-
-    h4 {
-    	font-size: 92%;
-    }
-
-    h6 {
-    	color: #F0F0F0;
-    }
-
-
-
     .containers {
     	width: 520px;
     	margin: 20px auto;

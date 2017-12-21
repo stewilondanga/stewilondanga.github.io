@@ -649,13 +649,8 @@ body > div {
     	}
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 300px) {
 
-    	.social-links li {
-    		display: block;
-    		width: 100%;
-    	}
-    	
     	h1 {
     		font-size: 300%;
     	}

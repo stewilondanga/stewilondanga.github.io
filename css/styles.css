@@ -244,31 +244,6 @@ h3 {
   box-sizing: border-box;
   padding: 10;
   margin: 0;
-  align-self: center;
-}
-
-.wrapper {
-  overflow: hidden;
-}
-
-.wrapper div {
-  padding: 15px;
-}
-
-#one #two #one2 {
-  padding: 15px;
-}
-
-#one {
-  background-color: #ACB2FD;
-  float: left;
-  width: 30%;
-}
-
-#two {
-  background-color: #ACB2FD;
-  float: left;
-  width: 70%;
 }
 
 #greeting {

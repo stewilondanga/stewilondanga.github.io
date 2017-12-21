@@ -1,3 +1,160 @@
+/* Media Queries */
+
+@media screen and (max-width: 300px) {
+  #portfolio [class^="col"] section {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    min-height: 400px;
+  }
+
+  #portfolio .overlay {
+    width: 100%;
+    height: auto;
+  }
+
+  #portfolio img {
+    width: 100%;
+    height: auto;
+  }
+
+  #portfolio section:hover .overlay .heading span {
+   -webkit-transform: rotate(90deg);
+   top: 70px;
+   left: -240px;
+   position: relative;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  body {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 80px;
+  }
+
+  #about img {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+  }
+
+  #about .info {
+    flex-direction: column-reverse;
+  }
+
+  #skill-set .skills {
+    margin-top: 20px;
+  }
+
+  #portfolio .description p {
+    margin-top: 40px;
+  }
+
+  #portfolio section {
+    font-size: 10px;
+  }
+
+  #portfolio .overlay > * {
+    font-size: 200%;
+  }
+
+  #portfolio p, h6 {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 300px) {
+
+  #home nav {
+    width: inherit;
+  }
+
+  #about .signature {
+    float: none;
+  }
+
+  #portfolio h2 {
+    margin-bottom: 0;
+  }
+
+  #portfolio section img {
+    display: none;
+  }
+
+  #portfolio section {
+    width: 100%;
+  }
+
+  #portfolio .description > *  {
+    display: block;
+  }
+
+  #portfolio .description {
+    display: table-footer-group;
+  }
+
+  #portfolio .heading {
+    display: table-header-group;
+    font-size: 180%;
+    text-align: left;
+  }
+
+  #portfolio .overlay {
+    min-height: auto;
+    padding: 20px;
+  }
+
+  #portfolio .description {
+    top: 100px;
+    position: static;
+  }
+
+  #portfolio section {
+    min-height: auto;
+  }
+
+  #portfolio section:hover .overlay .heading {
+   position: relative;
+   top: -0px;
+   color: white;
+   -webkit-transition: none;
+  }
+
+  #portfolio .heading span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+
+  h1 {
+    font-size: 300%;
+  }
+
+  #about img {
+    width: 60%;
+  }
+
+  #skill-set #web-development-skills::before {
+    display: none;
+  }
+
+  #skill-set .skills {
+    width: 100%;
+    display: block;
+  }
+
+  #portfolio .overlay {
+    height: 70%;
+  }
+
+}
+
 .jumbotron {
   width: 80%;
   background-color: #ACB2FD;
@@ -510,162 +667,6 @@ body > div {
     	transition: top .9s;
     }
 
-    /* Media Queries */
-
-    @media screen and (max-width: 300px) {
-    	#portfolio [class^="col"] section {
-    		width: 80%;
-    		margin-right: auto;
-    		margin-left: auto;
-    		margin-bottom: 10px;
-    		min-height: 400px;
-    	}
-
-    	#portfolio .overlay {
-    		width: 100%;
-    		height: auto;
-    	}
-
-    	#portfolio img {
-    		width: 100%;
-    		height: auto;
-    	}
-
-    	#portfolio section:hover .overlay .heading span {
-    	 -webkit-transform: rotate(90deg);
-    	 top: 70px;
-    	 left: -240px;
-    	 position: relative;
-    	}
-    }
-
-    @media screen and (max-width: 300px) {
-    	body {
-    		font-size: 18px;
-    		text-align: center;
-    	}
-
-      h2 {
-        margin-top: 80px;
-      }
-
-    	#about img {
-    		display: block;
-    		margin: 0 auto;
-    		width: 30%;
-    	}
-
-    	#about .info {
-    		flex-direction: column-reverse;
-    	}
-
-    	#skill-set .skills {
-    		margin-top: 20px;
-    	}
-
-    	#portfolio .description p {
-    		margin-top: 40px;
-    	}
-
-    	#portfolio section {
-    		font-size: 10px;
-    	}
-
-    	#portfolio .overlay > * {
-    		font-size: 200%;
-    	}
-
-    	#portfolio p, h6 {
-    		text-align: left;
-    	}
-    }
-
-    @media screen and (max-width: 300px) {
-
-    	#home nav {
-    		width: inherit;
-    	}
-
-    	#about .signature {
-    		float: none;
-    	}
-
-    	#portfolio h2 {
-    		margin-bottom: 0;
-    	}
-
-    	#portfolio section img {
-    		display: none;
-    	}
-
-    	#portfolio section {
-    		width: 100%;
-    	}
-
-    	#portfolio .description > *  {
-    		display: block;
-    	}
-
-    	#portfolio .description {
-    		display: table-footer-group;
-    	}
-
-    	#portfolio .heading {
-    		display: table-header-group;
-    		font-size: 180%;
-    		text-align: left;
-    	}
-
-    	#portfolio .overlay {
-    		min-height: auto;
-    		padding: 20px;
-    	}
-
-    	#portfolio .description {
-    		top: 100px;
-    		position: static;
-    	}
-
-    	#portfolio section {
-    		min-height: auto;
-    	}
-
-    	#portfolio section:hover .overlay .heading {
-    	 position: relative;
-    	 top: -0px;
-    	 color: white;
-    	 -webkit-transition: none;
-    	}
-
-    	#portfolio .heading span {
-    		display: none;
-    	}
-    }
-
-    @media screen and (max-width: 300px) {
-
-    	h1 {
-    		font-size: 300%;
-    	}
-
-    	#about img {
-    		width: 60%;
-    	}
-
-    	#skill-set #web-development-skills::before {
-    		display: none;
-    	}
-
-    	#skill-set .skills {
-    		width: 100%;
-    		display: block;
-    	}
-
-    	#portfolio .overlay {
-    		height: 70%;
-    	}
-
-    }
 
     h1 {
     	font-family: helvetica;

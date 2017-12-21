@@ -18,21 +18,21 @@ if ( now < 07 ){
 } else if ( now < 13 ) {
   message = 'A committee is a group that keeps minutes and loses hours. Good Afternoon!';
 } else if ( now < 14 ) {
-  message
+  message = 'My one regret in life is that I am not someone else. Good Afternoon';
 } else if ( now < 15 ) {
-  message
+  message = 'Everybody talks about the weather, but nobody does anything about it. Good Afternoon';
 } else if ( now < 16 ) {
   message = 'If I were two-faced, would I be wearing this one? Good Afternoon!';
 } else if ( now < 17 ) {
   message = 'Why do they call it rush hour when nothing moves? Good Afternoon!';
 } else if ( now < 18 ) {
-  message = 'I always wanted to be somebody, but now I realize I should have been more specific. Good Evening!';
+  message = 'I always wanted to be somebody, but now I realize I should have been more specific. Good Afternoon!';
 } else if ( now < 19 ) {
   message = 'Every sunset brings the promise of a new dawn! Good Evening';
 } else if ( now < 20 ) {
-  message = ''
+  message = 'Electricity is really just organized lightning! Good Evening';
 } else if ( now < 21 ) {
-  message
+  message = 'The tax collector must love poor people, he is creating so many of them. Good Evening';
 } else if ( now < 22 ) {
   message = 'If you are going to do something tonight that you will be sorry for tomorrow morning, sleep late. Good Evening!'
 } else if ( now < 23 ) {

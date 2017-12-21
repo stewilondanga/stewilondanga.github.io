@@ -1,5 +1,6 @@
 .jumbotron {
   width: 80%;
+  background-color: #ACB2FD;
 }
 
 * {
@@ -62,7 +63,7 @@
   }
 }
 .jumbotron {
-  background-color: #ACB2FD;
+
 }
 .author {
   color: #00FFCC;

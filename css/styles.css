@@ -1,5 +1,5 @@
 #home {
-  background-image:url("../assets/world.jpeg");
+  background-image:url("../assets/world.jpg");
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
@@ -15,26 +15,27 @@
 #home nav {
   margin: 0 auto;
   width: 700px;
-  padding-top: 80px;
+  padding-top: 110px;
 }
 
 
 h1 .logo:hover {
   font-size: 50px;
-  font-family: Courier;
+  font-family: Bookman;
   width: 200px;
   margin-left: -20px;
   color:#F98108;
 }
 
 h1 {
-  font-family: Courier;
-  font-weight: normal;
+  font-family: Palatino;
+  font-weight: bold;
+  font-size: 50px;
   text-align: center;
-  color: #00FFCC;
-  padding-top: 50px;
-  padding-bottom: 10px;
-  width: 375px;
+  color: #B5031B;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  width: 500px;
   margin: 0 auto;
   border-bottom: 3px solid #f3f3f3;
 }
@@ -42,10 +43,9 @@ h1 {
 #greeting {
   color: #00FFCC;
   background-color: #000000;
-  font-family: Courier;
-  font-size: 30px;
+  font-family: Bookman;
+  font-size: 35px;
 }
-
 
 #home nav ul {
   overflow: hidden;
@@ -56,7 +56,7 @@ h1 {
 }
 
 #home nav a {
-  padding: 16px;
+  padding: 20px;
   padding-right: 30px;
   display: table-cell;
 }
@@ -74,7 +74,7 @@ h1 {
 }
 
 #home nav.fixed ul {
-    max-width: 700px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -102,7 +102,7 @@ a:hover{
   color:#F9083B;
 }
 
-#about::before {
+/*#about::before {
   height: 0px;
   width: 0px;
   border-left: 30px solid transparent;
@@ -440,4 +440,4 @@ h3 {
 .cal th{ color:#aaa;line-height:200%;}
 .cal th:first-child{ color:#f00;}
 .cal th:last-child{ color:#04d;}
-.cal td{ padding:0 2px; line-height:100%;}
+.cal td{ padding:0 2px; line-height:100%;} */

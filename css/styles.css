@@ -127,12 +127,9 @@ a:hover{
   font-size: 70px;
   color: #291900;
   background-color: #BF7E3D;
-  padding-top: 75px;
+  padding-top: 80px;
 }
 
-#about h2::after {
-  border-bottom: 2px dashed #918D8D;
-}
 
 #about p {
   line-height: 150%;
@@ -142,52 +139,6 @@ a:hover{
   background-color: #291900;
   font-family: Palatino;
 }
-
-/*#portfolio {
-  padding-bottom: 80px;
-  background-image:url("../assets/world.gif");
-  background-repeat: no-repeat;
-  width: 100%;
-  background-size: cover;
-}
-
-#portfolio .row {
-  margin: 0px;
-  box-sizing: border-box;
-  padding: 0 60px;
-}
-
-#portfolio img {
-  width: 100%;
-}
-
-h2 {
-  font-size: 245%;
-  margin-top: 140px;
-}
-
-h2:after {
-  display: block;
-  margin: 42px 0;
-  content: "";
-}
-
-.author {
-  color: #00FFCC;
-  background-color: #000000;
-  font-family: Courier;
-  font-size: 70;
-}
-
-h3 {
-  font-weight: bold;
-  color: #00FFCC;
-  background-color: #000000;
-  font-family: Courier;
-  font-size: 40px;
-  text-align: center;
-}
-
 /* ELEMENTS */
 .noir {
   display: block;
@@ -217,39 +168,47 @@ h3 {
 }
 /* END OF ELEMENTS */
 
-#skill-set {
-  margin-top: 80px;
+/*h2 {
+  font-size: 245%;
+  margin-top: 140px;
+}
+
+h2:after {
+  display: block;
+  margin: 42px 0;
+  content: "";
+}*/
+
+h3 {
+  font-weight: bold;
+  color: #F98108;
+  background-color: #291900;
+  font-family: Palatino;
+  font-size: 40px;
+  text-align: center;
+}
+
+.contain {
+  background-color: #291900;
+  padding-top: 50px;
+}
+
+#portfolio {
   padding-bottom: 80px;
+  background-image:url("../assets/world.gif");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
 }
 
-#skill-set ul {
-  overflow: hidden;
-}
-
-#web-development-skills {
-  background-color: #114190;
-}
-
-#automation-skills {
-  background-color: #e11a61;
-}
-
-#misc-skills {
-  background-color: #9d1098;
-}
-
-.skills {
-  color: white;
-}
-
-.skills li {
-  padding: 30px;
-}
-
-* {
+#portfolio .row {
+  margin: 0px;
   box-sizing: border-box;
-  padding: 10;
-  margin: 0;
+  padding: 0 60px;
+}
+
+#portfolio img {
+  width: 100%;
 }
 
 .jumbotron {

@@ -172,7 +172,6 @@ a:hover {
   font-size: 245%;
   margin-top: 140px;
 }
-
 h2:after {
   display: block;
   margin: 42px 0;
@@ -511,29 +510,3 @@ input[value="8"]:checked~.container .carousel img:nth-child(8) {
   padding: 0 2px;
   line-height: 100%;
 }
-
-/* Grids */
-
-.square {
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
-  border:5px solid grey;
-}
-
-.img_1-1{background-image:url('http://placehold.it/500x300');}
-.img_1-2{background-image:url('http://placehold.it/300x500');}
-.img_1-3{background-image:url('https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg');}
-
-.img_2-1{background-image:url('https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg');}
-.img_2-2{background-image:url('https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg');}
-.img_2-3{background-image:url('https://farm4.staticflickr.com/3165/5733278274_2626612c70.jpg');}
-
-.img_3-1{background-image:url('https://farm9.staticflickr.com/8429/7862595906_8f953fd25b.jpg');}
-.img_3-2{background-image:url('https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg');}
-.img_3-3{background-image:url('https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg');}

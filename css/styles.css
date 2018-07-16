@@ -182,8 +182,12 @@ h1 {
 .img_3-1{
   background-image:url("../assets/helloworld.png");
 }
-/*.img_3-2{background-image:url('https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg');}
-.img_3-3{background-image:url('https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg');}
+.img_3-2{
+  background-image:url("../assets/updatemanager.png");
+}
+.img_3-3{
+  background-image:url("../assets/addressbook.png");
+}
 
 
 /*#portfolio {

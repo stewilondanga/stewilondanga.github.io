@@ -169,12 +169,20 @@ h1 {
   background-image:url("../assets/geolocation.png");
 }
 
-/*.img_2-1{background-image:url('https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg');}
-.img_2-2{background-image:url('https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg');}
-.img_2-3{background-image:url('https://farm4.staticflickr.com/3165/5733278274_2626612c70.jpg');}
+.img_2-1{
+  background-image:url("../assets/outandabout.png");
+}
+.img_2-2{
+  background-image:url("../assets/seasons.png");
+}
+.img_2-3{
+  background-image:url("../assets/myrestaurants.png");
+}
 
-.img_3-1{background-image:url('https://farm9.staticflickr.com/8429/7862595906_8f953fd25b.jpg');}
-.img_3-2{background-image:url('https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg');}
+.img_3-1{
+  background-image:url("../assets/helloworld.png");
+}
+/*.img_3-2{background-image:url('https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg');}
 .img_3-3{background-image:url('https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg');}
 
 

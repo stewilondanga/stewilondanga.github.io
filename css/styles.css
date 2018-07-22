@@ -22,10 +22,14 @@ body {
 	padding-bottom: 80px;
 }
 
+.overflow {
+	overflow: hidden;
+}
+
 #home nav {
 	margin: 0 auto;
 	width: 700px;
-	padding-top: 80px;
+	padding-top: 242px;
 }
 
 #home nav.fixed {
@@ -57,7 +61,7 @@ li {
 }
 
 #home nav a {
-	padding: 16px;
+	padding: 20px;
 	padding-right: 30px;
 	display: table-cell;
 }
@@ -71,20 +75,30 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 
-/*h1 {
+.vertical-list li {
+  float:left;
+}
+
+h1 {
 	color: white;
 	text-align: center;
 	margin-top: 4%;
 	font-size: 412.5%;
 }
 
+h1 .logo {
+	font-size: 100%;
+	font-family: 'Brush Script MT', cursive;
+	width: 200px;
+	margin-left: -20px;
+}
 
 h1 > small {
 	display: block;
 	color: white;
 }
 
-h2 {
+/*h2 {
 	font-size: 245%;
 	margin-top: 140px;
 }
@@ -105,14 +119,6 @@ h4 {
 
 h6 {
 	color: #F0F0F0;
-}
-
-
-h1 .logo {
-	font-size: 230%;
-	font-family: 'Brush Script MT', cursive;
-	width: 200px;
-	margin-left: -20px;
 }
 
 /* ELEMENTS */
@@ -145,11 +151,8 @@ h1 .logo {
 
 /* END OF ELEMENTS */
 
-/*.overflow {
-	overflow: hidden;
-}
 
-#about::before {
+/*#about::before {
 	height: 0px;
 	width: 0px;
 	border-left: 30px solid transparent;

@@ -213,12 +213,12 @@ h3 {
 	width: 100%;
 }
 
-/*#portfolio section {
+#portfolio section {
 	height: 100%;
 	margin-bottom: 20px;
 }
 
-#portfolio .overlay {
+/*#portfolio .overlay {
 	position: relative;
 	padding-bottom: 0px;
 	min-height: 550px;

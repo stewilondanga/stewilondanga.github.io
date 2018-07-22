@@ -203,13 +203,13 @@ h3 {
 	border: 3px solid #4D4343;
 }
 
-/*#portfolio div:nth-child(even) section {
+#portfolio div:nth-child(even) section {
 	background-color: #3D3636;
 	padding: 10px;
 	border: 3px solid #393333;
 }
 
-#portfolio img {
+/*#portfolio img {
 	width: 100%;
 }
 

@@ -8,7 +8,50 @@ body {
 	font-size: 20px;
 }
 
-/*li {
+/*#home {
+	background: url("https://static.pexels.com/photos/232/apple-iphone-books-desk-large.jpg") no-repeat;
+	width: 100%;
+	background-size: cover;
+}
+
+#home nav {
+	margin: 0 auto;
+	width: 700px;
+	padding-top: 80px;
+}
+
+#home nav ul {
+	overflow: hidden;
+}
+
+#home nav ul li {
+	width: 25%;
+}
+
+#home nav a {
+	padding: 16px;
+	padding-right: 30px;
+	display: table-cell;
+}
+
+#home nav.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: black;
+	z-index: 999;
+	padding: 0;
+	transition: background-color .8s;
+
+}
+
+#home nav.fixed ul {
+    max-width: 700px;
+	margin: 0 auto;
+}
+
+li {
 	list-style: none;
 }
 
@@ -17,12 +60,12 @@ a {
 }
 
 a:hover, a:focus {
-	color: white;
+	color: red;
 	text-decoration: none;
 }
 
 
-h1 {
+/*h1 {
 	color: white;
 	text-align: center;
 	margin-top: 4%;
@@ -106,50 +149,6 @@ h1 .logo {
 	width: 100%;
 	padding-bottom: 80px;
 }
-
-#home {
-	background: url("https://static.pexels.com/photos/232/apple-iphone-books-desk-large.jpg") no-repeat;
-	width: 100%;
-	background-size: cover;
-}
-
-#home nav {
-	margin: 0 auto;
-	width: 700px;
-	padding-top: 80px;
-}
-
-#home nav ul {
-	overflow: hidden;
-}
-
-#home nav ul li {
-	width: 25%;
-}
-
-#home nav a {
-	padding: 16px;
-	padding-right: 30px;
-	display: table-cell;
-}
-
-#home nav.fixed {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background-color: black;
-	z-index: 999;
-	padding: 0;
-	transition: background-color .8s;
-
-}
-
-#home nav.fixed ul {
-    max-width: 700px;
-	margin: 0 auto;
-}
-
 
 #about::before {
 	height: 0px;

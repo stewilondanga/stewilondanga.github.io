@@ -230,11 +230,11 @@ h3 {
 	margin-bottom: 140px;
 }
 
-/*#portfolio h2:after {
+#portfolio h2:after {
 	border-bottom: 2px dashed #b4b4b4;
 }
 
-#portfolio .description h4 {
+/*#portfolio .description h4 {
 	color: white;
 }
 

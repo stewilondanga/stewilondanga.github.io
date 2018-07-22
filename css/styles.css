@@ -137,7 +137,7 @@ h2:after {
 	line-height: 270%;
 }
 
-/*#about .signature {
+#about .signature {
 	font-family: 'Brush Script MT', cursive;
 	font-size: 150%;
 	float: right;
@@ -145,11 +145,44 @@ h2:after {
 	opacity: .9;
 }
 
+#skill-set {
+	margin-top: 80px;
+	padding-bottom: 80px;
+}
+
 h3 {
 	font-weight: bold;
 }
 
-h4 {
+/*#skill-set ul {
+	overflow: hidden;
+}
+
+/*#web-development-skills {
+	background-color: #114190;
+}
+
+#automation-skills {
+	background-color: #e11a61;
+}
+
+#misc-skills {
+	background-color: #9d1098;
+}
+
+.skills {
+	color: white;
+}
+
+.skills li {
+	padding: 20px;
+}
+
+.vertical-list li {
+	float: left;
+}
+
+/*h4 {
 	font-size: 92%;
 }
 
@@ -163,10 +196,6 @@ h6 {
 	background-color: black;
 	padding: 18px;
 	border: 3px solid white;
-}
-
-.vertical-list li {
-	float: left;
 }
 
 .blue-border {
@@ -226,36 +255,6 @@ h6 {
 .freecodecamp:hover {
 	background-color: #4a2b0f;
 	transition: background-color .4s;
-}
-
-#skill-set {
-	margin-top: 80px;
-	padding-bottom: 80px;
-}
-
-#skill-set ul {
-	overflow: hidden;
-}
-
-#web-development-skills {
-	background-color: #114190;
-}
-
-
-#automation-skills {
-	background-color: #e11a61;
-}
-
-#misc-skills {
-	background-color: #9d1098;
-}
-
-.skills {
-	color: white;
-}
-
-.skills li {
-	padding: 20px;
 }
 
 #portfolio {

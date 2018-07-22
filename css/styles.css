@@ -252,7 +252,7 @@ h3 {
 	transition: top .5s;
 }
 
-/*#portfolio section:hover .overlay .description > * {
+#portfolio section:hover .overlay .description > * {
 	display: block;
 }
 

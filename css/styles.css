@@ -43,6 +43,11 @@ body {
 	overflow: hidden;
 }
 
+#home nav.fixed ul {
+  max-width: 700px;
+	margin: 0 auto;
+}
+
 #home nav ul li {
 	width: 25%;
 }
@@ -53,12 +58,7 @@ body {
 	display: table-cell;
 }
 
-/*#home nav.fixed ul {
-    max-width: 700px;
-	margin: 0 auto;
-}
-
-li {
+/*li {
 	list-style: none;
 }
 

@@ -209,12 +209,12 @@ h3 {
 	padding: 15px;
 }
 
-/*#portfolio .description > * {
+#portfolio .description > * {
 	display: none;
 	font-size: 72%;
 }
 
-#portfolio p {
+/*#portfolio p {
 	color: #F0F0F0;
 	/*display: none;*/
 	/*margin-bottom: 30px;

@@ -226,13 +226,12 @@ h3 {
   overflow: auto;
 }
 
-/*
 #portfolio section:hover .overlay img {
 	opacity: 0;
 	transition: opacity .32s;
 }
 
-#portfolio img {
+/*#portfolio img {
 	width: 100%;
 }
 #portfolio section:hover .description {

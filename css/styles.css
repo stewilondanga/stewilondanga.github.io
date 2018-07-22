@@ -328,13 +328,15 @@ h6 {
 	 color: rgba(4,14,22,.83);;
 }
 
+h4 {
+	font-size: 92%;
+}
+
 /*#portfolio .description h4 {
 	color: white;
 }
 
-/*h4 {
-	font-size: 92%;
-}
+/*
 
 /* ELEMENTS */
 /*.noir {

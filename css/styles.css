@@ -231,10 +231,11 @@ h3 {
 	transition: opacity .32s;
 }
 
-/*#portfolio img {
+#portfolio img {
 	width: 100%;
 }
-#portfolio section:hover .description {
+
+/*#portfolio section:hover .description {
 	top: 140px;
 	transition: top .5s;
 }

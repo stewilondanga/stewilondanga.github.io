@@ -223,14 +223,15 @@ h3 {
 	overflow: hidden;
 }
 
-/*.description .tools li {
+.description .tools li {
 	margin-top: 5px;
 	background-color: #114190;
 	margin-right: 10px;
 	padding: 10px;
 	color: #F0F0F0;
 }
-#portfolio p {
+
+/*#portfolio p {
 	color: #F0F0F0;
 	/*display: none;*/
 	/*margin-bottom: 30px;

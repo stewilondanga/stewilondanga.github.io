@@ -214,17 +214,17 @@ h3 {
 	font-size: 72%;
 }
 
-/*#portfolio p {
+#portfolio p {
 	color: #F0F0F0;
 	/*display: none;*/
-	/*margin-bottom: 30px;
+	margin-bottom: 30px;
 	line-height: 230%;
 }
 
 #portfolio p, .tools {
 	width: 100%;
 }
-#portfolio .heading {
+/*#portfolio .heading {
 	color: #F0F0F0;
 	padding: 15px;
 	text-align: center;

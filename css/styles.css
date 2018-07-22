@@ -32,11 +32,11 @@ body {
 	overflow: hidden;
 }
 
-/*#home nav ul li {
+#home nav ul li {
 	width: 25%;
 }
 
-#home nav a {
+/*#home nav a {
 	padding: 16px;
 	padding-right: 30px;
 	display: table-cell;

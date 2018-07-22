@@ -242,30 +242,22 @@ h3 {
 	padding: 15px;
 }
 
-/*#portfolio section:hover .description {
+#portfolio .description > * {
+	display: none;
+	font-size: 72%;
+}
+
+#portfolio section:hover .description {
 	top: 140px;
 	transition: top .5s;
 }
 
-#portfolio section:hover .overlay .heading span {
-	 -webkit-transform: rotate(180deg);
-	 position: relative;
-	 top: -80px;
-	 left: -30px;
-	 color: rgba(4,14,22,.83);;
-}
-
-#portfolio section:hover .overlay .description > * {
+/*#portfolio section:hover .overlay .description > * {
 	display: block;
 }
 
 /*#portfolio .description h4 {
 	color: white;
-}
-
-#portfolio .description > * {
-	display: none;
-	font-size: 72%;
 }
 
 .description span {
@@ -283,6 +275,14 @@ h3 {
 	margin-right: 10px;
 	padding: 10px;
 	color: #F0F0F0;
+}
+
+#portfolio section:hover .overlay .heading span {
+	 -webkit-transform: rotate(180deg);
+	 position: relative;
+	 top: -80px;
+	 left: -30px;
+	 color: rgba(4,14,22,.83);;
 }
 
 #portfolio section:hover .overlay .heading {

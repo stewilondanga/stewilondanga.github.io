@@ -52,17 +52,17 @@ body {
 	width: 25%;
 }
 
+li {
+	list-style: none;
+}
+
 #home nav a {
 	padding: 16px;
 	padding-right: 30px;
 	display: table-cell;
 }
 
-/*li {
-	list-style: none;
-}
-
-a {
+/*a {
 	color: white;
 }
 

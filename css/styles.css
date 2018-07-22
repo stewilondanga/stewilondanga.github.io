@@ -3,12 +3,12 @@
 	margin: 0;
 }
 
-/*body {
+body {
 	font-family: 'Fauna One', serif;
 	font-size: 20px;
 }
 
-li {
+/*li {
 	list-style: none;
 }
 
@@ -67,7 +67,7 @@ h1 .logo {
 }
 
 /* ELEMENTS */
-.noir {
+/*.noir {
 	display: block;
 	background-color: black;
 	padding: 18px;
@@ -96,7 +96,7 @@ h1 .logo {
 
 /* END OF ELEMENTS */
 
-.overflow {
+/*.overflow {
 	overflow: hidden;
 }
 
@@ -310,7 +310,7 @@ h1 .logo {
 #portfolio p {
 	color: #F0F0F0;
 	/*display: none;*/
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;
 	line-height: 230%;
 }
 
@@ -491,7 +491,7 @@ h1 .logo {
 
 /* Media Queries */
 
-@media screen and (max-width: 1200px) {
+/*@media screen and (max-width: 1200px) {
 	#portfolio [class^="col"] section {
 		width: 80%;
 		margin-right: auto;

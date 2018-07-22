@@ -28,6 +28,17 @@ body {
 	padding-top: 80px;
 }
 
+#home nav.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: black;
+	z-index: 999;
+	padding: 0;
+	transition: background-color .8s;
+}
+
 #home nav ul {
 	overflow: hidden;
 }
@@ -42,19 +53,7 @@ body {
 	display: table-cell;
 }
 
-/*#home nav.fixed {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background-color: black;
-	z-index: 999;
-	padding: 0;
-	transition: background-color .8s;
-
-}
-
-#home nav.fixed ul {
+/*#home nav.fixed ul {
     max-width: 700px;
 	margin: 0 auto;
 }

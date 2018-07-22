@@ -187,6 +187,44 @@ h3 {
 	padding-bottom: 80px;
 }
 
+#portfolio .row {
+	margin: 0px;
+	box-sizing: border-box;
+	padding: 0 60px;
+}
+
+#portfolio div section {
+	cursor: pointer;
+}
+
+#portfolio div:nth-child(odd) section {
+	background-color: #483F3F;
+	padding: 10px;
+	border: 3px solid #4D4343;
+}
+
+/*#portfolio div:nth-child(even) section {
+	background-color: #3D3636;
+	padding: 10px;
+	border: 3px solid #393333;
+}
+
+#portfolio img {
+	width: 100%;
+}
+
+#portfolio section {
+	height: 100%;
+	margin-bottom: 20px;
+}
+
+#portfolio .overlay {
+	position: relative;
+	padding-bottom: 0px;
+	min-height: 550px;
+  overflow: auto;
+}
+
 #portfolio h2 {
 	color: #F0F0F0;
 	margin-bottom: 140px;
@@ -196,10 +234,8 @@ h3 {
 	border-bottom: 2px dashed #b4b4b4;
 }
 
-#portfolio .row {
-	margin: 0px;
-	box-sizing: border-box;
-	padding: 0 60px;
+#portfolio .description h4 {
+	color: white;
 }
 
 #portfolio .description {
@@ -266,41 +302,6 @@ h6 {
 	font-size: 200%;
 }
 
-#portfolio div section {
-	cursor: pointer;
-}
-
-#portfolio div:nth-child(odd) section {
-	background-color: #483F3F;
-	padding: 10px;
-	border: 3px solid #4D4343;
-}
-
-#portfolio div:nth-child(even) section {
-	background-color: #3D3636;
-	padding: 10px;
-	border: 3px solid #393333;
-}
-
-#portfolio img {
-	width: 100%;
-}
-
-#portfolio section {
-	height: 100%;
-	margin-bottom: 20px;
-}
-
-#portfolio .overlay {
-	position: relative;
-	padding-bottom: 0px;
-	min-height: 550px;
-  overflow: auto;
-}
-
-#portfolio .description h4 {
-	color: white;
-}
 
 #portfolio .heading {
 	position: relative;

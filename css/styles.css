@@ -261,16 +261,16 @@ h3 {
 	overflow: hidden;
 }
 
+.description span {
+	margin-left: 10px;
+}
+
 .description .tools li {
 	margin-top: 5px;
 	background-color: #114190;
 	margin-right: 10px;
 	padding: 10px;
 	color: #F0F0F0;
-}
-
-.description span {
-	margin-left: 10px;
 }
 
 /*#portfolio .description h4 {

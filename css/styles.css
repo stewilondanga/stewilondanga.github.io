@@ -314,16 +314,16 @@ h6 {
 	font-size: 200%;
 }
 
-/*#portfolio .description h4 {
-	color: white;
-}
-
-/*#portfolio section:hover .overlay .heading span {
+#portfolio section:hover .overlay .heading span {
 	 -webkit-transform: rotate(180deg);
 	 position: relative;
 	 top: -80px;
 	 left: -30px;
 	 color: rgba(4,14,22,.83);;
+}
+
+/*#portfolio .description h4 {
+	color: white;
 }
 
 #portfolio section:hover .overlay .heading {

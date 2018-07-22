@@ -15,6 +15,13 @@ body {
 	background-size: cover;
 }
 
+.overlay {
+	background-color: rgba(4,14,22,.83);
+	height: 100%;
+	width: 100%;
+	padding-bottom: 80px;
+}
+
 /*#home nav {
 	margin: 0 auto;
 	width: 700px;
@@ -142,13 +149,6 @@ h1 .logo {
 
 /*.overflow {
 	overflow: hidden;
-}
-
-.overlay {
-	background-color: rgba(4,14,22,.83);
-	height: 100%;
-	width: 100%;
-	padding-bottom: 80px;
 }
 
 #about::before {

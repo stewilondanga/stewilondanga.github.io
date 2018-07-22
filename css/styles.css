@@ -297,6 +297,14 @@ h6 {
 	color: #F0F0F0;
 }
 
+#portfolio .description h4 {
+	color: white;
+}
+
+h4 {
+	font-size: 80%;
+}
+
 #portfolio .heading {
 	color: #F0F0F0;
 	padding: 15px;
@@ -327,16 +335,6 @@ h6 {
 	 left: -30px;
 	 color: rgba(4,14,22,.83);;
 }
-
-h4 {
-	font-size: 92%;
-}
-
-/*#portfolio .description h4 {
-	color: white;
-}
-
-/*
 
 /* ELEMENTS */
 /*.noir {

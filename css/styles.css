@@ -36,13 +36,13 @@ body {
 	width: 25%;
 }
 
-/*#home nav a {
+#home nav a {
 	padding: 16px;
 	padding-right: 30px;
 	display: table-cell;
 }
 
-#home nav.fixed {
+/*#home nav.fixed {
 	position: fixed;
 	top: 0;
 	left: 0;

@@ -224,7 +224,8 @@ h3 {
 #portfolio p, .tools {
 	width: 100%;
 }
-/*#portfolio .heading {
+
+#portfolio .heading {
 	color: #F0F0F0;
 	padding: 15px;
 	text-align: center;
@@ -240,7 +241,7 @@ h3 {
 	font-size: 200%;
 }
 
-h4 {
+/*h4 {
 	font-size: 92%;
 }
 

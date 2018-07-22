@@ -98,12 +98,47 @@ h1 > small {
 	color: white;
 }
 
+#about::before {
+	height: 0px;
+	width: 0px;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 30px solid #131c23;
+	margin: 0 auto;
+	content: "";
+	display: block;
+}
+
+#about h2 {
+	color: #0d2435;
+}
+
+#about .info {
+	display: flex;
+	flex-direction: row;
+}
+
+/*#about h2::after {
+	border-bottom: 2px dashed #918D8D;
+}
+
+#about .info p {
+	line-height: 270%;
+}
+
+#about .signature {
+	font-family: 'Brush Script MT', cursive;
+	font-size: 150%;
+	float: right;
+	color: #0d2435;
+	opacity: .9;
+}
 /*h2 {
 	font-size: 245%;
 	margin-top: 140px;
 }
 
-h2:after {
+/*h2:after {
 	display: block;
 	margin: 42px 0;
 	content: "";
@@ -151,19 +186,7 @@ h6 {
 
 /* END OF ELEMENTS */
 
-
-/*#about::before {
-	height: 0px;
-	width: 0px;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	border-top: 30px solid #131c23;
-	margin: 0 auto;
-	content: "";
-	display: block;
-}
-
-.social-links {
+/*.social-links {
 	margin-top: 100px;
 	overflow: hidden;
 	padding: 0;
@@ -202,32 +225,6 @@ h6 {
 .freecodecamp:hover {
 	background-color: #4a2b0f;
 	transition: background-color .4s;
-}
-
-
-#about .info {
-	display: flex;
-	flex-direction: row;
-}
-
-#about h2 {
-	color: #0d2435;
-}
-
-#about h2::after {
-	border-bottom: 2px dashed #918D8D;
-}
-
-#about .info p {
-	line-height: 270%;
-}
-
-#about .signature {
-	font-family: 'Brush Script MT', cursive;
-	font-size: 150%;
-	float: right;
-	color: #0d2435;
-	opacity: .9;
 }
 
 #skill-set {

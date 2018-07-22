@@ -214,11 +214,11 @@ h3 {
 	font-size: 72%;
 }
 
-/*.description span {
+.description span {
 	margin-left: 10px;
 }
 
-.description .tools {
+/*.description .tools {
 	margin-top: 20px;
 	overflow: hidden;
 }

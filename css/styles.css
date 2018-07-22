@@ -214,15 +214,39 @@ h3 {
 	font-size: 72%;
 }
 
+/*.description span {
+	margin-left: 10px;
+}
+
+.description .tools {
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.description .tools li {
+	margin-top: 5px;
+	background-color: #114190;
+	margin-right: 10px;
+	padding: 10px;
+	color: #F0F0F0;
+}
 #portfolio p {
 	color: #F0F0F0;
 	/*display: none;*/
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;
 	line-height: 230%;
 }
 
 #portfolio p, .tools {
 	width: 100%;
+}
+
+h6 {
+	color: #F0F0F0;
+}
+
+h4 {
+	font-size: 92%;
 }
 
 #portfolio .heading {
@@ -239,99 +263,6 @@ h3 {
 	display: block;
 	margin: 40px 0px;
 	font-size: 200%;
-}
-
-/*h4 {
-	font-size: 92%;
-}
-
-h6 {
-	color: #F0F0F0;
-}
-
-/* ELEMENTS */
-/*.noir {
-	display: block;
-	background-color: black;
-	padding: 18px;
-	border: 3px solid white;
-}
-
-.blue-border {
-	border: 2px solid #114190;
-}
-
-.magenta-border {
-	border: 2px solid #e11a61;
-}
-
-.purple-border {
-	border: 2px solid #9d1098;
-}
-
-.red-border {
-	border: 2px solid #9d102b;
-}
-
-/* END OF ELEMENTS */
-
-/*.social-links {
-	margin-top: 100px;
-	overflow: hidden;
-	padding: 0;
-	display: table;
-	margin: 0 auto;
-	margin-top: 90px;
-}
-
-.social-links li {
-	display: inline-table;
-	margin-right: 10px;
-}
-
-.twitter {
-	border-color: #55acee;
-}
-
-.linkedin {
-	border-color: #0077b5;
-}
-
-.freecodecamp {
-	border-color: #4a2b0f;
-}
-
-.twitter:hover {
-	background-color: #55acee;
-	transition: background-color .4s;
-}
-
-.linkedin:hover {
-	background-color: #0077b5;
-	transition: background-color .4s;
-}
-
-.freecodecamp:hover {
-	background-color: #4a2b0f;
-	transition: background-color .4s;
-}
-
-
-.description span {
-	margin-left: 10px;
-}
-
-.description .tools {
-	margin-top: 20px;
-	overflow: hidden;
-}
-
-.description .tools li {
-	margin-top: 5px;
-	background-color: #114190;
-	margin-right: 10px;
-	padding: 10px;
-	color: #F0F0F0;
 }
 
 #portfolio div section {
@@ -408,7 +339,72 @@ h6 {
 	top: -60px;
 	transition: top .9s;
 }
+/* ELEMENTS */
+/*.noir {
+	display: block;
+	background-color: black;
+	padding: 18px;
+	border: 3px solid white;
+}
 
+.blue-border {
+	border: 2px solid #114190;
+}
+
+.magenta-border {
+	border: 2px solid #e11a61;
+}
+
+.purple-border {
+	border: 2px solid #9d1098;
+}
+
+.red-border {
+	border: 2px solid #9d102b;
+}
+
+/* END OF ELEMENTS */
+
+/*.social-links {
+	margin-top: 100px;
+	overflow: hidden;
+	padding: 0;
+	display: table;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+
+.social-links li {
+	display: inline-table;
+	margin-right: 10px;
+}
+
+.twitter {
+	border-color: #55acee;
+}
+
+.linkedin {
+	border-color: #0077b5;
+}
+
+.freecodecamp {
+	border-color: #4a2b0f;
+}
+
+.twitter:hover {
+	background-color: #55acee;
+	transition: background-color .4s;
+}
+
+.linkedin:hover {
+	background-color: #0077b5;
+	transition: background-color .4s;
+}
+
+.freecodecamp:hover {
+	background-color: #4a2b0f;
+	transition: background-color .4s;
+}
 
 #contact {
 	background: url("https://res.cloudinary.com/dj7k0lade/image/upload/v1526689027/codepen/portfolio/map.jpg") no-repeat;

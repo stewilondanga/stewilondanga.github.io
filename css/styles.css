@@ -109,8 +109,17 @@ h1 > small {
 	display: block;
 }
 
+#about h2::after {
+	border-bottom: 2px dashed #918D8D;
+}
+
 #about h2 {
 	color: #0d2435;
+}
+
+h2 {
+	font-size: 245%;
+	margin-top: 140px;
 }
 
 #about .info {
@@ -118,10 +127,7 @@ h1 > small {
 	flex-direction: row;
 }
 
-/*#about h2::after {
-	border-bottom: 2px dashed #918D8D;
-}
-
+/*
 #about .info p {
 	line-height: 270%;
 }
@@ -132,10 +138,6 @@ h1 > small {
 	float: right;
 	color: #0d2435;
 	opacity: .9;
-}
-/*h2 {
-	font-size: 245%;
-	margin-top: 140px;
 }
 
 /*h2:after {

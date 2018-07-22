@@ -122,28 +122,27 @@ h2 {
 	margin-top: 140px;
 }
 
+h2:after {
+	display: block;
+	margin: 42px 0;
+	content: "";
+}
+
 #about .info {
 	display: flex;
 	flex-direction: row;
 }
 
-/*
 #about .info p {
 	line-height: 270%;
 }
 
-#about .signature {
+/*#about .signature {
 	font-family: 'Brush Script MT', cursive;
 	font-size: 150%;
 	float: right;
 	color: #0d2435;
 	opacity: .9;
-}
-
-/*h2:after {
-	display: block;
-	margin: 42px 0;
-	content: "";
 }
 
 h3 {

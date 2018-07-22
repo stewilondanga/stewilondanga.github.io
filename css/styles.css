@@ -196,13 +196,13 @@ h3 {
 	border-bottom: 2px dashed #b4b4b4;
 }
 
-/*#portfolio .row {
+#portfolio .row {
 	margin: 0px;
 	box-sizing: border-box;
 	padding: 0 60px;
 }
 
-#portfolio .heading {
+/*#portfolio .heading {
 	color: #F0F0F0;
 	padding: 15px;
 	text-align: center;

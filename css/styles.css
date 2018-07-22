@@ -225,12 +225,12 @@ h3 {
   overflow: auto;
 }
 
-/*#portfolio h2 {
+#portfolio h2 {
 	color: #F0F0F0;
 	margin-bottom: 140px;
 }
 
-#portfolio h2:after {
+/*#portfolio h2:after {
 	border-bottom: 2px dashed #b4b4b4;
 }
 

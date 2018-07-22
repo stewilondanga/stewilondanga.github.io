@@ -218,14 +218,14 @@ h3 {
 	margin-bottom: 20px;
 }
 
-/*#portfolio .overlay {
+#portfolio .overlay {
 	position: relative;
 	padding-bottom: 0px;
 	min-height: 550px;
   overflow: auto;
 }
 
-#portfolio h2 {
+/*#portfolio h2 {
 	color: #F0F0F0;
 	margin-bottom: 140px;
 }

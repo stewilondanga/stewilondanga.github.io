@@ -307,6 +307,12 @@ h6 {
 	margin: 0 auto;
 }
 
+#portfolio section:hover .overlay .heading {
+	position: absolute;
+	top: -60px;
+	transition: top .9s;
+}
+
 #portfolio .heading span {
 	color: #635757;
 	display: block;
@@ -324,12 +330,6 @@ h6 {
 
 /*#portfolio .description h4 {
 	color: white;
-}
-
-#portfolio section:hover .overlay .heading {
-	position: absolute;
-	top: -60px;
-	transition: top .9s;
 }
 
 /*h4 {

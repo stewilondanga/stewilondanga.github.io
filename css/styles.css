@@ -301,9 +301,17 @@ h6 {
 	color: #F0F0F0;
 	padding: 15px;
 	text-align: center;
-	position: absolute;
   font-size: 18px;
   letter-spacing: 2px;
+  position: relative;
+	margin: 0 auto;
+}
+
+#portfolio .heading span {
+	color: #635757;
+	display: block;
+	margin: 40px 0px;
+	font-size: 200%;
 }
 
 /*#portfolio .description h4 {
@@ -327,20 +335,6 @@ h6 {
 /*h4 {
 	font-size: 92%;
 }
-
-#portfolio .heading span {
-	color: #635757;
-	display: block;
-	margin: 40px 0px;
-	font-size: 200%;
-}
-
-
-#portfolio .heading {
-	position: relative;
-	margin: 0 auto;
-}
-
 
 /* ELEMENTS */
 /*.noir {

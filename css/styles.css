@@ -476,8 +476,15 @@ h4 {
 		height: 70%;
 	}
 }
+#contact {
+	background-image: url("../assets/world.jpg");
+  background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+}
+
 /* ELEMENTS */
-/*.noir {
+.noir {
 	display: block;
 	background-color: black;
 	padding: 18px;
@@ -529,10 +536,6 @@ h4 {
 .freecodecamp:hover {
 	background-color: #4a2b0f;
 	transition: background-color .4s;
-}
-#contact {
-	background: url("https://res.cloudinary.com/dj7k0lade/image/upload/v1526689027/codepen/portfolio/map.jpg") no-repeat;
-	background-size: cover;
 }
 #contact .overlay {
 	background: rgba(0,0,0,.968);

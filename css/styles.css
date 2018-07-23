@@ -451,6 +451,31 @@ h4 {
 	}
 }
 
+@media screen and (max-width: 480px) {
+	.social-links li {
+		display: block;
+		width: 100%;
+	}
+	.social-links {
+		width: 100%;
+	}
+	h1 {
+		font-size: 300%;
+	}
+	#about img {
+		width: 60%;
+	}
+	#skill-set #web-development-skills::before {
+		display: none;
+	}
+	#skill-set .skills {
+		width: 100%;
+		display: block;
+	}
+	#portfolio .overlay {
+		height: 70%;
+	}
+}
 /* ELEMENTS */
 /*.noir {
 	display: block;
@@ -569,28 +594,4 @@ h4 {
 /* Media Queries */
 
 /*
-@media screen and (max-width: 480px) {
-	.social-links li {
-		display: block;
-		width: 100%;
-	}
-	.social-links {
-		width: 100%;
-	}
-	h1 {
-		font-size: 300%;
-	}
-	#about img {
-		width: 60%;
-	}
-	#skill-set #web-development-skills::before {
-		display: none;
-	}
-	#skill-set .skills {
-		width: 100%;
-		display: block;
-	}
-	#portfolio .overlay {
-		height: 70%;
-	}
-}*/
+*/

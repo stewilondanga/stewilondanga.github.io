@@ -530,6 +530,21 @@ h4 {
 	resize: none;
 }
 
+#contact #submitBTN {
+	color: white;
+}
+#contact #submitBTN:hover {
+	background-color: white;
+	color: black;
+	transition: background-color .4s;
+}
+#contact #submitBTN span {
+	margin-right: 20px;
+}
+#contact .social-links li {
+	margin-bottom: 20px;
+}
+
 /* ELEMENTS */
 .noir {
 	display: block;
@@ -584,21 +599,4 @@ h4 {
 	background-color: #4a2b0f;
 	transition: background-color .4s;
 }
-
-
-#contact #submitBTN {
-	color: white;
-}
-#contact #submitBTN:hover {
-	background-color: white;
-	color: black;
-	transition: background-color .4s;
-}
-#contact #submitBTN span {
-	margin-right: 20px;
-}
-#contact .social-links li {
-	margin-bottom: 20px;
-}
-
 */

@@ -216,7 +216,7 @@ h3 {
 #portfolio div:nth-child(even) section {
 	background-color: #3D3636;
 	padding: 10px;
-	border: 3px solid #393333;
+	border: 1px solid #393333;
 }
 
 #portfolio .overlay {
@@ -224,6 +224,7 @@ h3 {
 	padding-bottom: 0px;
 	min-height: 550px;
   overflow: auto;
+	height: 70%;
 }
 
 #portfolio section:hover .overlay img {
@@ -651,10 +652,6 @@ h4 {
 	#skill-set .skills {
 		width: 100%;
 		display: block;
-	}
-
-	#portfolio .overlay {
-		height: 70%;
 	}
 
 }*/

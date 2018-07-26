@@ -324,6 +324,7 @@ h6 {
 
 #portfolio .description h4 {
 	color: white;
+	margin-top: 15px;
 }
 
 .description .tools {
@@ -410,7 +411,7 @@ h4 {
 		float: none;
 	}
 	#portfolio h2 {
-		margin-bottom: 0;
+		margin-bottom: 100;
 	}
 	#portfolio section img {
 		display: none;
@@ -484,7 +485,7 @@ h4 {
 	background-size: cover;
 }
 
-#contact .overlay {
+/*#contact .overlay {
 	background: rgba(0,0,0,.968);
 }
 
@@ -566,7 +567,7 @@ h4 {
 }
 /* END OF ELEMENTS */
 
-.social-links {
+/*.social-links {
 	margin-top: 100px;
 	overflow: hidden;
 	padding: 0;

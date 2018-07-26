@@ -324,7 +324,6 @@ h6 {
 
 #portfolio .description h4 {
 	color: white;
-	margin-top: 15px;
 }
 
 .description .tools {
@@ -485,7 +484,7 @@ h4 {
 	background-size: cover;
 }
 
-/*#contact .overlay {
+#contact .overlay {
 	background: rgba(0,0,0,.968);
 }
 
@@ -567,7 +566,7 @@ h4 {
 }
 /* END OF ELEMENTS */
 
-/*.social-links {
+.social-links {
 	margin-top: 100px;
 	overflow: hidden;
 	padding: 0;
@@ -600,4 +599,3 @@ h4 {
 	background-color: #4a2b0f;
 	transition: background-color .4s;
 }
-*/

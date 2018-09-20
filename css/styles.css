@@ -232,6 +232,10 @@ body, html {
   transition-duration: 0.3s;
 }
 
+.resume .func .work, .resume .func .edu {
+  float: left;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -251,9 +255,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .func .work, .resume .func .edu {
-  float: left;
-}
 .resume .func .work small, .resume .func .edu small {
   display: block;
   opacity: 0.7;

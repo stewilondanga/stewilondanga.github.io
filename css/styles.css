@@ -156,6 +156,11 @@ body, html {
   vertical-align: middle;
 }
 
+.resume .base .follow .box a {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -175,10 +180,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .base .follow .box a {
-  display: inline-block;
-  vertical-align: text-bottom;
-}
 .resume .base .follow .box a:hover i {
   background: #e07a5f;
   border-radius: 5px;

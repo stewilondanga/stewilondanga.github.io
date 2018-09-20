@@ -236,6 +236,11 @@ body, html {
   float: left;
 }
 
+.resume .func .work small, .resume .func .edu small {
+  display: block;
+  opacity: 0.7;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -255,10 +260,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .func .work small, .resume .func .edu small {
-  display: block;
-  opacity: 0.7;
-}
 .resume .func .work ul li, .resume .func .edu ul li {
   position: relative;
   margin-left: 15px;

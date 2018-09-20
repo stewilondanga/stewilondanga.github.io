@@ -118,6 +118,10 @@ body, html {
   color: #e07a5f;
 }
 
+.resume .base .contact div a:hover span::after {
+  width: 100%;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -137,9 +141,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .base .contact div a:hover span::after {
-  width: 100%;
-}
 .resume .base .contact div:hover i {
   color: #e07a5f;
 }

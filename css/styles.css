@@ -122,6 +122,10 @@ body, html {
   width: 100%;
 }
 
+.resume .base .contact div:hover i {
+  color: #e07a5f;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -141,9 +145,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .base .contact div:hover i {
-  color: #e07a5f;
-}
 .resume .base .contact div i {
   color: #8d9e78;
   width: 20px;

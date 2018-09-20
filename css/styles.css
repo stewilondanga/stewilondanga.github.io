@@ -48,6 +48,12 @@ body, html {
   left: 0;
 }
 
+.resume::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -67,11 +73,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 .resume .base, .resume .func {
   box-sizing: border-box;
   float: left;

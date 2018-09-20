@@ -59,6 +59,14 @@ body, html {
   float: left;
 }
 
+.resume .base>div, .resume .func>div {
+  padding-bottom: 10px;
+}
+
+.resume .base>div:last-of-type, .resume .func>div:last-of-type {
+  padding-bottom: 0;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -78,12 +86,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .base > div, .resume .func > div {
-  padding-bottom: 10px;
-}
-.resume .base > div:last-of-type, .resume .func > div:last-of-type {
-  padding-bottom: 0;
-}
 .resume .base {
   width: 225px;
   padding: 30px 15px;

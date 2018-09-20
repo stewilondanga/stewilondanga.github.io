@@ -197,6 +197,14 @@ body, html {
   padding: 30px 25px;
 }
 
+.resume .func:hover>div {
+  transition-duration: 0.3s;
+}
+
+.resume .func:hover>div:hover h3 {
+  letter-spacing: 1.6px;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -216,12 +224,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .func:hover > div {
-  transition-duration: 0.3s;
-}
-.resume .func:hover > div:hover h3 {
-  letter-spacing: 1.6px;
-}
 .resume .func:hover > div:hover h3 i {
   transform: scale(1.2);
 }

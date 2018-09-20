@@ -256,6 +256,12 @@ body, html {
   color: #e07a5f;
 }
 
+.resume .func .work ul li:first-of-type::before, .resume .func .edu ul li:first-of-type::before {
+  width: 10px;
+  height: 10px;
+  left: -2px;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -282,11 +288,6 @@ h3 {
   to {
     box-shadow: 0 0 0 6px rgba(61, 64, 91, 0);
   }
-}
-.resume .func .work ul li:first-of-type::before, .resume .func .edu ul li:first-of-type::before {
-  width: 10px;
-  height: 10px;
-  left: -2px;
 }
 .resume .func .work ul li:last-of-type, .resume .func .edu ul li:last-of-type {
   padding-bottom: 3px;

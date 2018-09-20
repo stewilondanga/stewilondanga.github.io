@@ -81,6 +81,18 @@ body, html {
   z-index: 2;
 }
 
+.resume .base .profile::after {
+  content: "";
+  position: absolute;
+  background: #8d9e78;
+  width: 100%;
+  height: 30px;
+  bottom: -15px;
+  left: 0;
+  transform: skewY(-5deg);
+  z-index: -1;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -100,17 +112,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .base .profile::after {
-  content: "";
-  position: absolute;
-  background: #8d9e78;
-  width: 100%;
-  height: 30px;
-  bottom: -15px;
-  left: 0;
-  transform: skewY(-5deg);
-  z-index: -1;
-}
 .resume .base .profile .photo img {
   width: 100%;
   border-radius: 50%;

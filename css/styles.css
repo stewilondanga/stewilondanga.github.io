@@ -93,6 +93,16 @@ body, html {
   z-index: -1;
 }
 
+.resume .base .profile .photo img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.resume .base .profile .info {
+  text-align: center;
+  color: #fcfcfc;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -112,14 +122,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .base .profile .photo img {
-  width: 100%;
-  border-radius: 50%;
-}
-.resume .base .profile .info {
-  text-align: center;
-  color: #fcfcfc;
-}
 .resume .base .profile .info .name {
   margin-top: 10px;
   margin-bottom: 0;

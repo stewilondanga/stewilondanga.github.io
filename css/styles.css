@@ -3,15 +3,17 @@
   outline: none;
 }
 
-/*body {
-  text-align: center;
-  font-family: courier;
-  background-image: url("../assets/image.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+body, html {
+  margin: 0;
+  background: #eee;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 0.65px;
+  font-size: 15px;
+  color: #555;
+  cursor: default;
 }
 
-.my_social {
+/*.my_social {
   position: absolute;
   top: 25px;
   left: 25px;
@@ -24,16 +26,6 @@
 
 .my_social a img {
   height: 1.5em;
-}
-
-body, html {
-  margin: 0;
-  background: #eee;
-  font-family: "Ubuntu", "微軟正黑體", sans-serif;
-  letter-spacing: 0.65px;
-  font-size: 15px;
-  color: #555;
-  cursor: default;
 }
 
 a {

@@ -171,6 +171,19 @@ body, html {
   transform: rotate(-45deg) scale(1.5);
 }
 
+.resume .base .follow .box i {
+  display: inline-block;
+  font-size: 30px;
+  background: #8d9e78;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+  color: #fcfcfc;
+  margin: 0 10px 10px 10px;
+  transition-duration: 0.3s;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -190,18 +203,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .base .follow .box i {
-  display: inline-block;
-  font-size: 30px;
-  background: #8d9e78;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  line-height: 60px;
-  color: #fcfcfc;
-  margin: 0 10px 10px 10px;
-  transition-duration: 0.3s;
-}
 .resume .base .follow .box i::before {
   transition-duration: 0.3s;
 }

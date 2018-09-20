@@ -126,6 +126,16 @@ body, html {
   color: #e07a5f;
 }
 
+.resume .base .contact div i {
+  color: #8d9e78;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 15px;
+  transition-duration: 0.3s;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -145,15 +155,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .base .contact div i {
-  color: #8d9e78;
-  width: 20px;
-  height: 20px;
-  font-size: 20px;
-  text-align: center;
-  margin-right: 15px;
-  transition-duration: 0.3s;
-}
 .resume .base .contact div span {
   position: relative;
 }

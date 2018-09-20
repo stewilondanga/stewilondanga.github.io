@@ -28,6 +28,16 @@ body, html {
   height: 1.5em;
 }
 
+.resume {
+  width: 870px;
+  background: #fbfbfb;
+  margin: 20px auto;
+  border: 1px solid #bbb;
+  box-shadow: 0 0 20px -3px #bbb;
+  position: relative;
+  display: flex;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -47,15 +57,7 @@ h3 {
   font-size: 18px;
 }
 
-.resume {
-  width: 870px;
-  background: #fbfbfb;
-  margin: 20px auto;
-  border: 1px solid #bbb;
-  box-shadow: 0 0 20px -3px #bbb;
-  position: relative;
-  display: flex;
-}
+
 .resume::before {
   content: "";
   width: 100%;

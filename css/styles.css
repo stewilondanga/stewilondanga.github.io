@@ -73,6 +73,14 @@ body, html {
   background: rgba(238, 238, 238, 0.6);
 }
 
+.resume .base .profile {
+  background: #8d9e78;
+  padding: 30px 15px 5px 15px;
+  margin: -30px -15px 45px -15px;
+  position: relative;
+  z-index: 2;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -92,13 +100,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .base .profile {
-  background: #8d9e78;
-  padding: 30px 15px 5px 15px;
-  margin: -30px -15px 45px -15px;
-  position: relative;
-  z-index: 2;
-}
 .resume .base .profile::after {
   content: "";
   position: absolute;

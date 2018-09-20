@@ -140,6 +140,17 @@ body, html {
   position: relative;
 }
 
+.resume .base .contact div span::after {
+  content: "";
+  position: absolute;
+  background: #e07a5f;
+  height: 1px;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  transition-duration: 0.3s;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -159,16 +170,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .base .contact div span::after {
-  content: "";
-  position: absolute;
-  background: #e07a5f;
-  height: 1px;
-  width: 0;
-  bottom: 0;
-  left: 0;
-  transition-duration: 0.3s;
-}
 .resume .base .follow .box {
   text-align: center;
   vertical-align: middle;

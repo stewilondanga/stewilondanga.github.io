@@ -192,6 +192,11 @@ body, html {
   display: block;
 }
 
+.resume .func {
+  width: 645px;
+  padding: 30px 25px;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -211,10 +216,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .func {
-  width: 645px;
-  padding: 30px 25px;
-}
 .resume .func:hover > div {
   transition-duration: 0.3s;
 }

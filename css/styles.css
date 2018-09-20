@@ -110,6 +110,10 @@ body, html {
   font-weight: normal;
 }
 
+.resume .base .contact div {
+  line-height: 24px;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -129,9 +133,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .base .contact div {
-  line-height: 24px;
-}
 .resume .base .contact div a:hover {
   color: #e07a5f;
 }

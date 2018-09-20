@@ -136,6 +136,10 @@ body, html {
   transition-duration: 0.3s;
 }
 
+.resume .base .contact div span {
+  position: relative;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -155,9 +159,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .base .contact div span {
-  position: relative;
-}
 .resume .base .contact div span::after {
   content: "";
   position: absolute;

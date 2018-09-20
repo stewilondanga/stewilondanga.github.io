@@ -67,6 +67,12 @@ body, html {
   padding-bottom: 0;
 }
 
+.resume .base {
+  width: 225px;
+  padding: 30px 15px;
+  background: rgba(238, 238, 238, 0.6);
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -86,11 +92,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .base {
-  width: 225px;
-  padding: 30px 15px;
-  background: rgba(238, 238, 238, 0.6);
-}
 .resume .base .profile {
   background: #8d9e78;
   padding: 30px 15px 5px 15px;

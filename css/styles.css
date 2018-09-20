@@ -248,6 +248,10 @@ body, html {
   padding-bottom: 15px;
 }
 
+.resume .func .work ul li:hover::before, .resume .func .edu ul li:hover::before {
+  animation: circle 1.2s infinite;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -267,9 +271,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .func .work ul li:hover::before, .resume .func .edu ul li:hover::before {
-  animation: circle 1.2s infinite;
-}
 .resume .func .work ul li:hover span, .resume .func .edu ul li:hover span {
   color: #e07a5f;
 }

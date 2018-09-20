@@ -218,6 +218,20 @@ body, html {
   margin-top: 0;
 }
 
+.resume .func h3 i {
+  color: #fcfcfc;
+  background: #8d9e78;
+  width: 42px;
+  height: 42px;
+  font-size: 20px;
+  line-height: 42px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 8px;
+  transition-duration: 0.3s;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -237,19 +251,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .func h3 i {
-  color: #fcfcfc;
-  background: #8d9e78;
-  width: 42px;
-  height: 42px;
-  font-size: 20px;
-  line-height: 42px;
-  border-radius: 50%;
-  text-align: center;
-  vertical-align: middle;
-  margin-right: 8px;
-  transition-duration: 0.3s;
-}
 .resume .func .work, .resume .func .edu {
   float: left;
 }

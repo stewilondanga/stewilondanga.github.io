@@ -167,6 +167,10 @@ body, html {
   transform: rotate(45deg) scale(0.8);
 }
 
+.resume .base .follow .box a:hover i::before {
+  transform: rotate(-45deg) scale(1.5);
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -186,9 +190,6 @@ h3 {
   font-size: 18px;
 }
 
-.resume .base .follow .box a:hover i::before {
-  transform: rotate(-45deg) scale(1.5);
-}
 .resume .base .follow .box i {
   display: inline-block;
   font-size: 30px;

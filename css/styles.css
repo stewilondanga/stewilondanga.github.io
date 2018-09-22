@@ -434,6 +434,11 @@ body, html {
   transition-duration: 0.3s;
 }
 
+.resume .func .interests-items div i.guitar {
+  display: block;
+  margin: 0 auto;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -462,10 +467,6 @@ h3 {
   }
 }
 
-.resume .func .interests-items div i.guitar {
-  display: block;
-  margin: 0 auto;
-}
 .resume .func .interests-items div i.guitar svg {
   width: 50px;
   height: 50px;

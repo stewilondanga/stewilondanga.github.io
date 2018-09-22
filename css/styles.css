@@ -410,6 +410,12 @@ body, html {
   justify-content: space-between;
 }
 
+.resume .func .interests-items div {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -438,11 +444,6 @@ h3 {
   }
 }
 
-.resume .func .interests-items div {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-}
 .resume .func .interests-items div:hover i {
   transform: scale(1.2);
 }

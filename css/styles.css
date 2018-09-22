@@ -469,7 +469,7 @@ h3 {
   font-size: 18px;
 }
 
-/*@keyframes circle {
+@keyframes circle {
   from {
     box-shadow: 0 0 0 0px #3d405b;
   }

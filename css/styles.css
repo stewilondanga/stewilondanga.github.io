@@ -294,6 +294,10 @@ body, html {
   top: 0;
 }
 
+.resume .func .work ul li span, .resume .func .edu ul li span {
+  transition-duration: 0.3s;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -320,9 +324,6 @@ h3 {
   to {
     box-shadow: 0 0 0 6px rgba(61, 64, 91, 0);
   }
-}
-.resume .func .work ul li span, .resume .func .edu ul li span {
-  transition-duration: 0.3s;
 }
 .resume .func .work {
   width: 42%;

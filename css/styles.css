@@ -314,6 +314,13 @@ body, html {
   margin-left: 15px;
 }
 
+.resume .func .skills-prog ul li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  transition-duration: 0.3s;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -340,12 +347,6 @@ h3 {
   to {
     box-shadow: 0 0 0 6px rgba(61, 64, 91, 0);
   }
-}
-.resume .func .skills-prog ul li {
-  margin-bottom: 8px;
-  display: flex;
-  align-items: center;
-  transition-duration: 0.3s;
 }
 .resume .func .skills-prog ul li:hover {
   color: #e07a5f;

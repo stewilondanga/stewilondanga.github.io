@@ -439,6 +439,13 @@ body, html {
   margin: 0 auto;
 }
 
+.resume .func .interests-items div i.guitar svg {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  fill: #8d9e78;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -467,12 +474,6 @@ h3 {
   }
 }
 
-.resume .func .interests-items div i.guitar svg {
-  width: 50px;
-  height: 50px;
-  margin-top: 5px;
-  fill: #8d9e78;
-}
 .resume .func .interests-items div span {
   display: block;
 }

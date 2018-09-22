@@ -325,6 +325,11 @@ body, html {
   color: #e07a5f;
 }
 
+.resume .func .skills-prog ul li:hover .skills-bar .bar {
+  background: #e07a5f;
+  box-shadow: 0 0 0 1px #e07a5f;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -351,10 +356,6 @@ h3 {
   to {
     box-shadow: 0 0 0 6px rgba(61, 64, 91, 0);
   }
-}
-.resume .func .skills-prog ul li:hover .skills-bar .bar {
-  background: #e07a5f;
-  box-shadow: 0 0 0 1px #e07a5f;
 }
 .resume .func .skills-prog ul li span {
   display: block;

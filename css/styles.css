@@ -358,6 +358,10 @@ body, html {
   text-align: center;
 }
 
+.resume .func .skills-soft ul li {
+  position: relative;
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -384,9 +388,6 @@ h3 {
   to {
     box-shadow: 0 0 0 6px rgba(61, 64, 91, 0);
   }
-}
-.resume .func .skills-soft ul li {
-  position: relative;
 }
 .resume .func .skills-soft ul li:hover svg .cbar {
   stroke: #e07a5f;

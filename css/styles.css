@@ -450,14 +450,14 @@ body, html {
   display: block;
 }
 
-/*a {
+a {
   text-decoration: none;
   color: #555;
   display: block;
   transition-duration: 0.3s;
 }
 
-ul {
+/*ul {
   list-style-type: none;
   padding: 0;
 }

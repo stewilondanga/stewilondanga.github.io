@@ -462,14 +462,14 @@ ul {
   padding: 0;
 }
 
-/*h3 {
+h3 {
   color: #3d405b;
   margin: 10px 0;
   text-transform: uppercase;
   font-size: 18px;
 }
 
-@keyframes circle {
+/*@keyframes circle {
   from {
     box-shadow: 0 0 0 0px #3d405b;
   }

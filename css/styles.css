@@ -416,6 +416,10 @@ body, html {
   height: 80px;
 }
 
+.resume .func .interests-items div:hover i {
+  transform: scale(1.2);
+}
+
 /*a {
   text-decoration: none;
   color: #555;
@@ -444,9 +448,6 @@ h3 {
   }
 }
 
-.resume .func .interests-items div:hover i {
-  transform: scale(1.2);
-}
 .resume .func .interests-items div:hover span {
   color: #e07a5f;
   transition-duration: 0.3s;

@@ -457,12 +457,12 @@ a {
   transition-duration: 0.3s;
 }
 
-/*ul {
+ul {
   list-style-type: none;
   padding: 0;
 }
 
-h3 {
+/*h3 {
   color: #3d405b;
   margin: 10px 0;
   text-transform: uppercase;
